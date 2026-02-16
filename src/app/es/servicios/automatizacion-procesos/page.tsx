@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ProcessAutomation from '@/components/pages/ProcessAutomation';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Automatización de Procesos - Optimización de Operaciones Empresariales | Digital Frog',
@@ -12,5 +13,34 @@ export const metadata: Metadata = {
 };
 
 export default function ProcessAutomationPageES() {
-  return <ProcessAutomation />;
+  return (
+    <>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Automatización de Procesos",
+        "provider": {
+          "@type": "Organization",
+          "name": "Digital Frog"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Chile"
+        },
+        "description": "Servicios de automatización de procesos empresariales con optimización de operaciones, ingeniería de flujos de trabajo y soluciones de automatización sistemática.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5000",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "5000",
+            "priceCurrency": "USD",
+            "unitText": "precio inicial"
+          }
+        }
+      }} />
+      <ProcessAutomation />
+    </>
+  );
 }

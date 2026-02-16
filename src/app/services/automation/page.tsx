@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import AutomationServices from '@/components/pages/AutomationServices';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Marketing Automation Services - Workflow Engineering | Digital Frog',
@@ -12,5 +13,34 @@ export const metadata: Metadata = {
 };
 
 export default function AutomationServicesPage() {
-  return <AutomationServices />;
+  return (
+    <>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Business Automation",
+        "provider": {
+          "@type": "Organization",
+          "name": "Digital Frog"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Chile"
+        },
+        "description": "Professional marketing automation services with workflow engineering, AI-powered systems, and business process optimization.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5000",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "5000",
+            "priceCurrency": "USD",
+            "unitText": "starting price"
+          }
+        }
+      }} />
+      <AutomationServices />
+    </>
+  );
 }

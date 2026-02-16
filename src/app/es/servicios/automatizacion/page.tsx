@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import AutomationServices from '@/components/pages/AutomationServices';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Servicios de Automatización de Marketing - Ingeniería de Flujos de Trabajo | Digital Frog',
@@ -12,5 +13,34 @@ export const metadata: Metadata = {
 };
 
 export default function AutomationServicesPageES() {
-  return <AutomationServices />;
+  return (
+    <>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Automatización Empresarial",
+        "provider": {
+          "@type": "Organization",
+          "name": "Digital Frog"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Chile"
+        },
+        "description": "Servicios profesionales de automatización de marketing con ingeniería de flujos de trabajo, sistemas potenciados por IA y optimización de procesos empresariales.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5000",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "5000",
+            "priceCurrency": "USD",
+            "unitText": "precio inicial"
+          }
+        }
+      }} />
+      <AutomationServices />
+    </>
+  );
 }

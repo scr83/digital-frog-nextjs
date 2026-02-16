@@ -4,6 +4,7 @@ import './globals.css';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import JsonLd from '@/components/JsonLd';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
@@ -29,6 +30,27 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <body className="bg-gray-950 text-white antialiased">
         <LanguageProvider>
+          <JsonLd data={{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Digital Frog",
+            "url": "https://digitalfrog.co",
+            "logo": "https://digitalfrog.co/Logo-Digital-Frog.png",
+            "description": "Digital marketing agency that engineers complete systems for growth. SEO, web development, and automation.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Los Militares 5620, Of.905",
+              "addressLocality": "Las Condes, Santiago",
+              "addressCountry": "CL"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+56-9-9973-0352",
+              "email": "sebastian@digitalfrog.co",
+              "contactType": "sales"
+            },
+            "sameAs": []
+          }} />
           <Navigation />
           <main>{children}</main>
           <Footer />

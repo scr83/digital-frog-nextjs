@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import SEOServices from '@/components/pages/SEOServices';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'SEO Services - Technical SEO Optimization | Digital Frog',
@@ -12,5 +13,34 @@ export const metadata: Metadata = {
 };
 
 export default function SEOServicesPage() {
-  return <SEOServices />;
+  return (
+    <>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "SEO Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Digital Frog"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Chile"
+        },
+        "description": "Professional SEO services including technical audits, keyword strategy, on-page optimization, and performance monitoring.",
+        "offers": {
+          "@type": "Offer",
+          "price": "1800",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "1800",
+            "priceCurrency": "USD",
+            "unitText": "starting price"
+          }
+        }
+      }} />
+      <SEOServices />
+    </>
+  );
 }

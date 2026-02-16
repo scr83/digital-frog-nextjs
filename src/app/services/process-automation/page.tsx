@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ProcessAutomation from '@/components/pages/ProcessAutomation';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Process Automation - Business Operations Optimization | Digital Frog',
@@ -12,5 +13,34 @@ export const metadata: Metadata = {
 };
 
 export default function ProcessAutomationPage() {
-  return <ProcessAutomation />;
+  return (
+    <>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Process Automation",
+        "provider": {
+          "@type": "Organization",
+          "name": "Digital Frog"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Chile"
+        },
+        "description": "Business process automation services with operations optimization, workflow engineering, and systematic automation solutions.",
+        "offers": {
+          "@type": "Offer",
+          "price": "5000",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "5000",
+            "priceCurrency": "USD",
+            "unitText": "starting price"
+          }
+        }
+      }} />
+      <ProcessAutomation />
+    </>
+  );
 }
