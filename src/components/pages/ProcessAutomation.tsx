@@ -1,5 +1,4 @@
 'use client';
-
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ServiceHero } from '@/components/sections/ServiceHero';
 import { ProblemSection } from '@/components/sections/ProblemSection';
@@ -8,7 +7,6 @@ import { CaseStudyFeature } from '@/components/sections/CaseStudyFeature';
 import { ProcessTimeline } from '@/components/sections/ProcessTimeline';
 import { FAQAccordion } from '@/components/sections/FAQAccordion';
 import { FinalCTA } from '@/components/sections/FinalCTA';
-
 // Custom section for What We Automate (different from WhatWeBuild)
 function WhatWeAutomate({ title, subtitle, categories }: { title: string; subtitle: string; categories: Array<{ title: string; items: string[] }> }) {
   return (
@@ -22,7 +20,6 @@ function WhatWeAutomate({ title, subtitle, categories }: { title: string; subtit
             {subtitle}
           </p>
         </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-up animation-delay-100">
           {categories.map((category, index) => (
             <div key={index} className="bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-cyan-400/50 transition-colors">
@@ -44,7 +41,6 @@ function WhatWeAutomate({ title, subtitle, categories }: { title: string; subtit
     </section>
   );
 }
-
 // Custom section for RPA vs Custom comparison
 function VSRPASection({ title, subtitle, comparison, conclusion }: { 
   title: string; 
@@ -63,7 +59,6 @@ function VSRPASection({ title, subtitle, comparison, conclusion }: {
             {subtitle}
           </p>
         </div>
-
         <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 md:p-8 mb-8 animate-fade-up animation-delay-100">
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -86,7 +81,6 @@ function VSRPASection({ title, subtitle, comparison, conclusion }: {
             </table>
           </div>
         </div>
-
         <div className="text-center max-w-2xl mx-auto animate-fade-up animation-delay-200">
           <p className="text-gray-300 font-inter">{conclusion}</p>
         </div>
@@ -94,14 +88,27 @@ function VSRPASection({ title, subtitle, comparison, conclusion }: {
     </section>
   );
 }
-
 export function ProcessAutomation() {
   const { t, language } = useLanguage();
-
   // Determine which translations to use based on current language
   const translationKey = language === 'es' ? 'automatizacionProcesos' : 'processAutomation';
-
-
+  // SEO Configuration
+  const canonicalUrl = language === 'es' 
+    ? 'https://digitalfrog.co/es/servicios/automatizacion-procesos'
+    : 'https://digitalfrog.co/services/process-automation';
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": t(`${translationKey}.meta.title`),
+    "description": t(`${translationKey}.meta.description`),
+    "provider": {
+      "@type": "Organization",
+      "name": "Digital Frog",
+      "url": "https://digitalfrog.co"
+    },
+    "areaServed": ["Chile", "Argentina", "Peru", "Mexico", "United States", "Canada", "United Kingdom", "Australia"],
+    "serviceType": "Business Process Automation"
+  };
   return (
       <main className="min-h-screen bg-gray-950 pt-20">
       <ServiceHero 
@@ -112,51 +119,36 @@ export function ProcessAutomation() {
         ctaText={t(`${translationKey}.hero.cta`)}
         ctaSecondaryText={t(`${translationKey}.hero.ctaSecondary`)}
       />
-      
       <ProblemSection 
         title={t(`${translationKey}.problem.title`)}
         subtitle={t(`${translationKey}.problem.subtitle`)}
         items={t(`${translationKey}.problem.items`)}
       />
-      
       <WhatWeAutomate 
         title={t(`${translationKey}.whatWeAutomate.title`)}
         subtitle={t(`${translationKey}.whatWeAutomate.subtitle`)}
         categories={t(`${translationKey}.whatWeAutomate.categories`)}
       />
-      
       <VSRPASection 
         title={t(`${translationKey}.vsRPA.title`)}
         subtitle={t(`${translationKey}.vsRPA.subtitle`)}
         comparison={t(`${translationKey}.vsRPA.comparison`)}
         conclusion={t(`${translationKey}.vsRPA.conclusion`)}
       />
-      
       <CaseStudyFeature 
         title={t(`${translationKey}.caseStudy.title`)}
         subtitle="Real automation impact from real clients."
-        featured={{
-          type: "Case Study",
-          client: "Client Name",
-          challenge: "Challenge description",
-          solution: "Solution description",
-          results: [],
-          quote: "Quote text",
-          quoteName: "Client Name"
-        }}
+        featured={t(`${translationKey}.caseStudy.featured`)}
       />
-      
       <ProcessTimeline 
         title={t(`${translationKey}.process.title`)}
         subtitle="A systematic approach to automation."
         steps={t(`${translationKey}.process.steps`)}
       />
-      
       <FAQAccordion 
         title={t(`${translationKey}.faq.title`)}
         items={t(`${translationKey}.faq.items`)}
       />
-      
       <FinalCTA 
         title={t(`${translationKey}.finalCta.title`)}
         subtitle={t(`${translationKey}.finalCta.subtitle`)}
@@ -166,6 +158,5 @@ export function ProcessAutomation() {
       </main>
   );
 }
-
 ProcessAutomation.displayName = 'ProcessAutomation';
 export default ProcessAutomation;

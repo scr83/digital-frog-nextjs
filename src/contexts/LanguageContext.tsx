@@ -9,7 +9,7 @@ type Language = 'en' | 'es';
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: string) => string;
+  t: (key: string) => any;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -23,10 +23,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     setLanguage(isSpanish ? 'es' : 'en');
   }, [pathname]);
 
-  const t = (key: string): string => {
+  const t = (key: string): any => {
     const translationFn = getTranslations(language as TranslationLanguage).t;
     const result = translationFn(key);
-    return typeof result === 'string' ? result : key;
+    return result !== undefined ? result : key;
   };
 
   return (

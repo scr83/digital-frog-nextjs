@@ -1,5 +1,4 @@
 'use client';
-
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ServiceHero } from '@/components/sections/ServiceHero';
 import { ProblemSection } from '@/components/sections/ProblemSection';
@@ -11,16 +10,29 @@ import { CaseStudyFeature } from '@/components/sections/CaseStudyFeature';
 import { PricingTransparency } from '@/components/sections/PricingTransparency';
 import { FAQAccordion } from '@/components/sections/FAQAccordion';
 import { FinalCTA } from '@/components/sections/FinalCTA';
-
 export function CustomSoftware() {
   const { t, language } = useLanguage();
-
   // Determine which translations to use based on current language
   const translationKey = language === 'es' ? 'softwareAMedida' : 'customSoftware';
-
-
+  // SEO Configuration
+  const canonicalUrl = language === 'es' 
+    ? 'https://digitalfrog.co/es/servicios/software-a-medida'
+    : 'https://digitalfrog.co/services/custom-software';
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": t(`${translationKey}.meta.title`),
+    "description": t(`${translationKey}.meta.description`),
+    "provider": {
+      "@type": "Organization",
+      "name": "Digital Frog",
+      "url": "https://digitalfrog.co"
+    },
+    "areaServed": ["Chile", "Argentina", "Peru", "Mexico", "United States", "Canada", "United Kingdom", "Australia"],
+    "serviceType": "Custom Software Development"
+  };
   return (
-    <main className="min-h-screen bg-gray-950 pt-20">
+      <main className="min-h-screen bg-gray-950 pt-20">
       <ServiceHero 
         badge={t(`${translationKey}.hero.badge`)}
         title={t(`${translationKey}.hero.title`)}
@@ -34,46 +46,39 @@ export function CustomSoftware() {
           satisfaction: t(`${translationKey}.hero.trustBadges.satisfaction`)
         }}
       />
-      
       <ProblemSection 
         title={t(`${translationKey}.problem.title`)}
         subtitle={t(`${translationKey}.problem.subtitle`)}
         items={t(`${translationKey}.problem.items`)}
       />
-      
       <SolutionSection 
         title={t(`${translationKey}.solution.title`)}
         subtitle={t(`${translationKey}.solution.subtitle`)}
         items={t(`${translationKey}.solution.items`)}
         differentiator={t(`${translationKey}.solution.differentiator`)}
       />
-      
       <WhatWeBuild 
         title={t(`${translationKey}.whatWeBuild.title`)}
         subtitle={t(`${translationKey}.whatWeBuild.subtitle`)}
         items={t(`${translationKey}.whatWeBuild.items`)}
       />
-      
       <TechStack 
         title={t(`${translationKey}.techStack.title`)}
         subtitle={t(`${translationKey}.techStack.subtitle`)}
         description={t(`${translationKey}.techStack.description`)}
         technologies={t(`${translationKey}.techStack.technologies`)}
       />
-      
       <ProcessTimeline 
         title={t(`${translationKey}.process.title`)}
         subtitle={t(`${translationKey}.process.subtitle`)}
         steps={t(`${translationKey}.process.steps`)}
       />
-      
       <CaseStudyFeature 
         title={t(`${translationKey}.caseStudy.title`)}
         subtitle={t(`${translationKey}.caseStudy.subtitle`)}
         featured={t(`${translationKey}.caseStudy.featured`)}
         additionalMetrics={t(`${translationKey}.caseStudy.additionalMetrics`)}
       />
-      
       <PricingTransparency 
         title={t(`${translationKey}.pricing.title`)}
         subtitle={t(`${translationKey}.pricing.subtitle`)}
@@ -82,12 +87,10 @@ export function CustomSoftware() {
         cta={t(`${translationKey}.pricing.cta`)}
         note={t(`${translationKey}.pricing.note`)}
       />
-      
       <FAQAccordion 
         title={t(`${translationKey}.faq.title`)}
         items={t(`${translationKey}.faq.items`)}
       />
-      
       <FinalCTA 
         title={t(`${translationKey}.finalCta.title`)}
         subtitle={t(`${translationKey}.finalCta.subtitle`)}
@@ -97,6 +100,5 @@ export function CustomSoftware() {
       </main>
   );
 }
-
 CustomSoftware.displayName = 'CustomSoftware';
 export default CustomSoftware;

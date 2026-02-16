@@ -1,5 +1,4 @@
 'use client';
-
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ServiceHero } from '@/components/sections/ServiceHero';
 import { CaseStudyFeature } from '@/components/sections/CaseStudyFeature';
@@ -8,7 +7,6 @@ import { FAQAccordion } from '@/components/sections/FAQAccordion';
 import { FinalCTA } from '@/components/sections/FinalCTA';
 import { LucideIcon } from 'lucide-react';
 import * as Icons from 'lucide-react';
-
 // Custom section for Industries
 function IndustriesSection({ title, items }: { title: string; items: Array<{ icon: string; title: string; description: string }> }) {
   return (
@@ -19,12 +17,10 @@ function IndustriesSection({ title, items }: { title: string; items: Array<{ ico
             {title}
           </h2>
         </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-up animation-delay-100">
           {items.map((item, index) => {
             const IconComponent = (Icons as any)[item.icon] as LucideIcon;
-            
-            return (
+  return (
               <div
                 key={index}
                 className="bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-cyan-400/50 transition-colors text-center"
@@ -46,7 +42,6 @@ function IndustriesSection({ title, items }: { title: string; items: Array<{ ico
     </section>
   );
 }
-
 // Custom section for Challenges
 function ChallengesSection({ title, subtitle, items }: { title: string; subtitle: string; items: Array<{ title: string; description: string }> }) {
   return (
@@ -60,7 +55,6 @@ function ChallengesSection({ title, subtitle, items }: { title: string; subtitle
             {subtitle}
           </p>
         </div>
-
         <div className="grid md:grid-cols-2 gap-8 animate-fade-up animation-delay-100">
           {items.map((item, index) => (
             <div
@@ -80,7 +74,6 @@ function ChallengesSection({ title, subtitle, items }: { title: string; subtitle
     </section>
   );
 }
-
 // Custom section for Solutions
 function SolutionsSection({ title, items }: { title: string; items: Array<{ icon: string; title: string; description: string }> }) {
   return (
@@ -91,12 +84,10 @@ function SolutionsSection({ title, items }: { title: string; items: Array<{ icon
             {title}
           </h2>
         </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-up animation-delay-100">
           {items.map((item, index) => {
             const IconComponent = (Icons as any)[item.icon] as LucideIcon;
-            
-            return (
+  return (
               <div
                 key={index}
                 className="bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-cyan-400/50 transition-colors"
@@ -118,7 +109,6 @@ function SolutionsSection({ title, items }: { title: string; items: Array<{ icon
     </section>
   );
 }
-
 // Enhanced Case Study for Professional Services
 function ProfessionalCaseStudy({ badge, title, client, subtitle, challenge, solution, results, quote }: {
   badge: string;
@@ -148,7 +138,6 @@ function ProfessionalCaseStudy({ badge, title, client, subtitle, challenge, solu
               {subtitle}
             </p>
           </div>
-
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Challenge */}
             <div>
@@ -159,7 +148,6 @@ function ProfessionalCaseStudy({ badge, title, client, subtitle, challenge, solu
                 {challenge.description}
               </p>
             </div>
-
             {/* Solution */}
             <div>
               <h4 className="text-lg font-semibold mb-4 text-white font-outfit">
@@ -174,7 +162,6 @@ function ProfessionalCaseStudy({ badge, title, client, subtitle, challenge, solu
                 ))}
               </ul>
             </div>
-
             {/* Results */}
             <div>
               <h4 className="text-lg font-semibold mb-4 text-white font-outfit">
@@ -197,7 +184,6 @@ function ProfessionalCaseStudy({ badge, title, client, subtitle, challenge, solu
               </div>
             </div>
           </div>
-
           {/* Quote */}
           <div className="mt-8 bg-gray-700 border border-gray-600 rounded-xl p-6 text-center">
             <blockquote className="text-gray-300 italic mb-4 font-inter text-lg">
@@ -215,14 +201,27 @@ function ProfessionalCaseStudy({ badge, title, client, subtitle, challenge, solu
     </section>
   );
 }
-
 export function ProfessionalServices() {
   const { t, language } = useLanguage();
-
   // Determine which translations to use based on current language
   const translationKey = language === 'es' ? 'serviciosProfesionales' : 'professionalServices';
-
-
+  // SEO Configuration
+  const canonicalUrl = language === 'es' 
+    ? 'https://digitalfrog.co/es/soluciones/servicios-profesionales'
+    : 'https://digitalfrog.co/solutions/professional-services';
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": t(`${translationKey}.meta.title`),
+    "description": t(`${translationKey}.meta.description`),
+    "provider": {
+      "@type": "Organization",
+      "name": "Digital Frog",
+      "url": "https://digitalfrog.co"
+    },
+    "areaServed": ["Chile", "Argentina", "Peru", "Mexico", "United States", "Canada", "United Kingdom", "Australia"],
+    "serviceType": "Professional Services Software"
+  };
   return (
       <main className="min-h-screen bg-gray-950 pt-20">
       <ServiceHero 
@@ -233,34 +232,29 @@ export function ProfessionalServices() {
         ctaText={t(`${translationKey}.hero.cta`)}
         ctaSecondaryText={t(`${translationKey}.hero.ctaSecondary`)}
       />
-      
       <IndustriesSection 
         title={t(`${translationKey}.industries.title`)}
         items={t(`${translationKey}.industries.items`)}
       />
-      
       <ChallengesSection 
         title={t(`${translationKey}.challenges.title`)}
         subtitle={t(`${translationKey}.challenges.subtitle`)}
         items={t(`${translationKey}.challenges.items`)}
       />
-      
       <SolutionsSection 
         title={t(`${translationKey}.solutions.title`)}
         items={t(`${translationKey}.solutions.items`)}
       />
-      
       <ProfessionalCaseStudy 
         badge={t(`${translationKey}.caseStudy.badge`)}
         title={t(`${translationKey}.caseStudy.title`)}
         client={t(`${translationKey}.caseStudy.client`)}
         subtitle={t(`${translationKey}.caseStudy.subtitle`)}
-        challenge={{ title: "Challenge", description: "Challenge description" }}
-        solution={{ title: "Solution", items: [] }}
-        results={{ title: "Results", items: [] }}
-        quote={{ text: "Quote text", name: "Client Name", title: "Client Title" }}
+        challenge={t(`${translationKey}.caseStudy.challenge`)}
+        solution={t(`${translationKey}.caseStudy.solution`)}
+        results={t(`${translationKey}.caseStudy.results`)}
+        quote={t(`${translationKey}.caseStudy.quote`)}
       />
-      
       <PricingTransparency 
         title={t(`${translationKey}.pricing.title`)}
         subtitle="Industry-specific investment ranges."
@@ -277,12 +271,10 @@ export function ProfessionalServices() {
         cta={t(`${translationKey}.pricing.cta`)}
         note="Free consultation included."
       />
-      
       <FAQAccordion 
         title={t(`${translationKey}.faq.title`)}
         items={t(`${translationKey}.faq.items`)}
       />
-      
       <FinalCTA 
         title={t(`${translationKey}.finalCta.title`)}
         subtitle={t(`${translationKey}.finalCta.subtitle`)}
@@ -292,6 +284,5 @@ export function ProfessionalServices() {
       </main>
   );
 }
-
 ProfessionalServices.displayName = 'ProfessionalServices';
 export default ProfessionalServices;

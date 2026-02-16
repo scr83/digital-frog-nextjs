@@ -19,6 +19,24 @@ export function SEOServices() {
   const translationKey = language === 'es' ? 'serviciosSEO' : 'seoServices';
 
 
+  // SEO Configuration
+  const canonicalUrl = language === 'es' 
+    ? 'https://digitalfrog.co/es/servicios/seo'
+    : 'https://digitalfrog.co/services/seo';
+
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": t(`${translationKey}.meta.title`),
+    "description": t(`${translationKey}.meta.description`),
+    "provider": {
+      "@type": "Organization",
+      "name": "Digital Frog",
+      "url": "https://digitalfrog.co"
+    },
+    "areaServed": ["Chile", "Argentina", "Peru", "Mexico", "United States", "Canada", "United Kingdom", "Australia"],
+    "serviceType": "SEO Services"
+  };
 
   return (
       <main className="min-h-screen bg-gray-950 pt-20">
