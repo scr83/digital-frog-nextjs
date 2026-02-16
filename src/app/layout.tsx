@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   verification: {
     google: 'Lm-BZKXzWTnZot2QTvqY-ltfunMHEwwuxOfg7Ss9RWc',
   },
+  icons: {
+    icon: '/Logo-Digital-Frog.png',
+    apple: '/Logo-Digital-Frog.png',
+  },
 };
 
 export default function RootLayout({
