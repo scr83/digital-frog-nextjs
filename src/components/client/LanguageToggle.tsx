@@ -1,6 +1,7 @@
 'use client';
 
 import { useRouter, usePathname } from 'next/navigation';
+import { getLanguageSwitchPath } from '@/lib/translations';
 
 interface LanguageToggleProps {
   currentLanguage: 'en' | 'es';
@@ -18,13 +19,8 @@ export function LanguageToggle({ currentLanguage, className = "" }: LanguageTogg
     // Save preference
     localStorage.setItem('digitalfrog-lang', newLang);
     
-    // Get the correct path for the target language
-    let targetPath = pathname;
-    if (newLang === 'es') {
-      targetPath = pathname.startsWith('/es') ? pathname : `/es${pathname}`;
-    } else {
-      targetPath = pathname.startsWith('/es') ? pathname.replace('/es', '') || '/' : pathname;
-    }
+    // Get the correct path for the target language using proper route mapping
+    const targetPath = getLanguageSwitchPath(pathname, newLang);
     
     // Navigate to new language path
     router.push(targetPath);
@@ -69,13 +65,8 @@ export function MobileLanguageToggle({ currentLanguage, className = "" }: Mobile
     // Save preference
     localStorage.setItem('digitalfrog-lang', newLang);
     
-    // Get the correct path for the target language
-    let targetPath = pathname;
-    if (newLang === 'es') {
-      targetPath = pathname.startsWith('/es') ? pathname : `/es${pathname}`;
-    } else {
-      targetPath = pathname.startsWith('/es') ? pathname.replace('/es', '') || '/' : pathname;
-    }
+    // Get the correct path for the target language using proper route mapping
+    const targetPath = getLanguageSwitchPath(pathname, newLang);
     
     // Navigate to new language path
     router.push(targetPath);
