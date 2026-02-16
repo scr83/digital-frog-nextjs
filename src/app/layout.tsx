@@ -19,13 +19,8 @@ export const metadata: Metadata = {
     google: 'Lm-BZKXzWTnZot2QTvqY-ltfunMHEwwuxOfg7Ss9RWc',
   },
   icons: {
-    icon: [
-      { url: '/favicon-circle.svg', sizes: 'any', type: 'image/svg+xml' },
-      { url: '/favicon-circle.svg', sizes: '32x32', type: 'image/svg+xml' },
-      { url: '/favicon-circle.svg', sizes: '16x16', type: 'image/svg+xml' },
-    ],
-    apple: '/favicon-circle.svg',
-    shortcut: '/favicon-circle.svg',
+    icon: '/favicon.png',
+    apple: '/favicon.png',
   },
 };
 
