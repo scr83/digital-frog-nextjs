@@ -38,62 +38,54 @@ export function AutomationServices() {
       <ProblemSection 
         title={t(`${translationKey}.problem.title`)}
         subtitle={t(`${translationKey}.problem.subtitle`)}
-        items={[]}
+        items={t(`${translationKey}.problem.items`)}
       />
       
       <SolutionSection 
         title={t(`${translationKey}.solution.title`)}
         subtitle={t(`${translationKey}.solution.subtitle`)}
-        items={[]}
-        differentiator={{ title: "Key Differentiator", description: "What sets us apart" }}
+        items={t(`${translationKey}.solution.items`)}
+        differentiator={t(`${translationKey}.solution.differentiator`)}
       />
       
       <WhatWeBuild 
         title={t(`${translationKey}.whatWeBuild.title`)}
         subtitle={t(`${translationKey}.whatWeBuild.subtitle`)}
-        items={[]}
+        items={t(`${translationKey}.whatWeBuild.items`)}
       />
       
       <TechStack 
         title={t(`${translationKey}.techStack.title`)}
         subtitle={t(`${translationKey}.techStack.subtitle`)}
         description={t(`${translationKey}.techStack.description`)}
-        technologies={[]}
+        technologies={t(`${translationKey}.techStack.technologies`)}
       />
       
       <ProcessTimeline 
         title={t(`${translationKey}.process.title`)}
         subtitle={t(`${translationKey}.process.subtitle`)}
-        steps={[]}
+        steps={t(`${translationKey}.process.steps`)}
       />
       
       <CaseStudyFeature 
         title={t(`${translationKey}.caseStudy.title`)}
         subtitle={t(`${translationKey}.caseStudy.subtitle`)}
-        featured={{
-          type: "Case Study",
-          client: "Client Name",
-          challenge: "Challenge description",
-          solution: "Solution description",
-          results: [],
-          quote: "Quote text",
-          quoteName: "Client Name"
-        }}
-        additionalMetrics={[]}
+        featured={t(`${translationKey}.caseStudy.featured`)}
+        additionalMetrics={t(`${translationKey}.caseStudy.additionalMetrics`)}
       />
       
       <PricingTransparency 
         title={t(`${translationKey}.pricing.title`)}
         subtitle={t(`${translationKey}.pricing.subtitle`)}
         description={t(`${translationKey}.pricing.description`)}
-        factors={{ title: "Pricing Factors", items: [] }}
+        factors={t(`${translationKey}.pricing.factors`)}
         cta={t(`${translationKey}.pricing.cta`)}
         note={t(`${translationKey}.pricing.note`)}
       />
       
       <FAQAccordion 
         title={t(`${translationKey}.faq.title`)}
-        items={[]}
+        items={t(`${translationKey}.faq.items`)}
       />
       
       <FinalCTA 

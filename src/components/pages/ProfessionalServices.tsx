@@ -236,18 +236,18 @@ export function ProfessionalServices() {
       
       <IndustriesSection 
         title={t(`${translationKey}.industries.title`)}
-        items={[]}
+        items={t(`${translationKey}.industries.items`)}
       />
       
       <ChallengesSection 
         title={t(`${translationKey}.challenges.title`)}
         subtitle={t(`${translationKey}.challenges.subtitle`)}
-        items={[]}
+        items={t(`${translationKey}.challenges.items`)}
       />
       
       <SolutionsSection 
         title={t(`${translationKey}.solutions.title`)}
-        items={[]}
+        items={t(`${translationKey}.solutions.items`)}
       />
       
       <ProfessionalCaseStudy 
@@ -280,7 +280,7 @@ export function ProfessionalServices() {
       
       <FAQAccordion 
         title={t(`${translationKey}.faq.title`)}
-        items={[]}
+        items={t(`${translationKey}.faq.items`)}
       />
       
       <FinalCTA 

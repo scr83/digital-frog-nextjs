@@ -116,19 +116,19 @@ export function ProcessAutomation() {
       <ProblemSection 
         title={t(`${translationKey}.problem.title`)}
         subtitle={t(`${translationKey}.problem.subtitle`)}
-        items={[]}
+        items={t(`${translationKey}.problem.items`)}
       />
       
       <WhatWeAutomate 
         title={t(`${translationKey}.whatWeAutomate.title`)}
         subtitle={t(`${translationKey}.whatWeAutomate.subtitle`)}
-        categories={[]}
+        categories={t(`${translationKey}.whatWeAutomate.categories`)}
       />
       
       <VSRPASection 
         title={t(`${translationKey}.vsRPA.title`)}
         subtitle={t(`${translationKey}.vsRPA.subtitle`)}
-        comparison={[]}
+        comparison={t(`${translationKey}.vsRPA.comparison`)}
         conclusion={t(`${translationKey}.vsRPA.conclusion`)}
       />
       
@@ -149,12 +149,12 @@ export function ProcessAutomation() {
       <ProcessTimeline 
         title={t(`${translationKey}.process.title`)}
         subtitle="A systematic approach to automation."
-        steps={[]}
+        steps={t(`${translationKey}.process.steps`)}
       />
       
       <FAQAccordion 
         title={t(`${translationKey}.faq.title`)}
-        items={[]}
+        items={t(`${translationKey}.faq.items`)}
       />
       
       <FinalCTA 
