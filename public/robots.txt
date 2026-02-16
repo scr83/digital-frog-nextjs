@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Block sensitive areas
+Disallow: /api/
+Disallow: /.well-known/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow common crawlers to access everything else
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap
+Sitemap: https://digitalfrog.co/sitemap.xml
+
+# Crawl-delay for courtesy
+Crawl-delay: 1

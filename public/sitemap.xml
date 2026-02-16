@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://digitalfrog.co/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services Pages -->
+  <url>
+    <loc>https://digitalfrog.co/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/services" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/services" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- SEO Services -->
+  <url>
+    <loc>https://digitalfrog.co/services/seo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/seo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/seo" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/servicios/seo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/seo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/seo" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Web Development -->
+  <url>
+    <loc>https://digitalfrog.co/services/web-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/desarrollo-web" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/servicios/desarrollo-web</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/web-development" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/desarrollo-web" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Automation Services -->
+  <url>
+    <loc>https://digitalfrog.co/services/automation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/automation" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/automatizacion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/servicios/automatizacion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/automation" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/automatizacion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Custom Software -->
+  <url>
+    <loc>https://digitalfrog.co/services/custom-software</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/custom-software" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/software-a-medida" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/servicios/software-a-medida</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/custom-software" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/software-a-medida" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Process Automation -->
+  <url>
+    <loc>https://digitalfrog.co/services/process-automation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/process-automation" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/automatizacion-procesos" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/servicios/automatizacion-procesos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/services/process-automation" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/servicios/automatizacion-procesos" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Professional Services -->
+  <url>
+    <loc>https://digitalfrog.co/solutions/professional-services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/solutions/professional-services" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/soluciones/servicios-profesionales" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/soluciones/servicios-profesionales</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/solutions/professional-services" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/soluciones/servicios-profesionales" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Portfolio -->
+  <url>
+    <loc>https://digitalfrog.co/portfolio</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/portfolio" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/portfolio" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/portfolio</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/portfolio" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/portfolio" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://digitalfrog.co/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://digitalfrog.co/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digitalfrog.co/es/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digitalfrog.co/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://digitalfrog.co/es/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
