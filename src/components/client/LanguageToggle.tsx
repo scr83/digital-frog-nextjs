@@ -4,7 +4,7 @@ import { useRouter, usePathname } from 'next/navigation';
 import { getLanguageSwitchPath } from '@/lib/translations';
 
 interface LanguageToggleProps {
-  currentLanguage: 'en' | 'es';
+  currentLanguage: 'en' | 'es' | 'sr';
   className?: string;
 }
 
@@ -15,7 +15,7 @@ export function LanguageToggle({ currentLanguage, className = "" }: LanguageTogg
   const router = useRouter();
   const pathname = usePathname();
 
-  const switchLanguage = (newLang: 'en' | 'es') => {
+  const switchLanguage = (newLang: 'en' | 'es' | 'sr') => {
     // Save preference
     localStorage.setItem('digitalfrog-lang', newLang);
     
@@ -48,12 +48,22 @@ export function LanguageToggle({ currentLanguage, className = "" }: LanguageTogg
       >
         ES
       </button>
+      <button
+        onClick={() => switchLanguage('sr')}
+        className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
+          currentLanguage === 'sr'
+            ? 'bg-gray-700 text-white'
+            : 'text-gray-400 hover:text-white'
+        }`}
+      >
+        SR
+      </button>
     </div>
   );
 }
 
 interface MobileLanguageToggleProps {
-  currentLanguage: 'en' | 'es';
+  currentLanguage: 'en' | 'es' | 'sr';
   className?: string;
 }
 
@@ -61,7 +71,7 @@ export function MobileLanguageToggle({ currentLanguage, className = "" }: Mobile
   const router = useRouter();
   const pathname = usePathname();
 
-  const switchLanguage = (newLang: 'en' | 'es') => {
+  const switchLanguage = (newLang: 'en' | 'es' | 'sr') => {
     // Save preference
     localStorage.setItem('digitalfrog-lang', newLang);
     
@@ -93,6 +103,16 @@ export function MobileLanguageToggle({ currentLanguage, className = "" }: Mobile
         }`}
       >
         Español
+      </button>
+      <button
+        onClick={() => switchLanguage('sr')}
+        className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+          currentLanguage === 'sr'
+            ? 'bg-gray-700 text-white'
+            : 'bg-gray-800 text-gray-400'
+        }`}
+      >
+        Srpski
       </button>
     </div>
   );

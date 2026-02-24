@@ -49,17 +49,22 @@ export function Footer() {
             <h4 className="font-semibold text-foreground">{t('footer.company')}</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link href={language === 'es' ? '/es/about' : language === 'sr' ? '/sr/about' : '/about'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   {t('footer.about')}
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link href={language === 'es' ? '/es/portfolio' : language === 'sr' ? '/sr/portfolio' : '/portfolio'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   {t('footer.portfolio')}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link href={language === 'es' ? '/es/blog' : language === 'sr' ? '/sr/blog' : '/blog'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  {t('footer.blog')}
+                </Link>
+              </li>
+              <li>
+                <Link href={language === 'es' ? '/es/contact' : language === 'sr' ? '/sr/contact' : '/contact'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   {t('nav.contact')}
                 </Link>
               </li>

@@ -1,4 +1,4 @@
-type Language = 'en' | 'es';
+type Language = 'en' | 'es' | 'sr';
 
 // Support nested translations for complex pages
 type TranslationValue = string | Record<string, any>;
@@ -7,6 +7,7 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     // Navigation
     'nav.services': 'Services',
     'nav.portfolio': 'Portfolio',
+    'nav.blog': 'Blog',
     'nav.about': 'About',
     'nav.contact': 'Contact',
     'nav.cta': 'Start Your Project',
@@ -31,6 +32,10 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'meta.services.title': 'Services - SEO & Custom Software Development | Digital Frog',
     'meta.services.description': 'Digital Frog offers comprehensive SEO services and custom software development. From technical audits to full-stack applications.',
     'meta.services.keywords': 'SEO services, custom software development, web applications, technical SEO audit, performance optimization',
+
+    'meta.blog.title': 'Blog - Software Development & Automation Insights | Digital Frog',
+    'meta.blog.description': 'Expert insights on custom software development, process automation, and digital transformation for Chilean businesses.',
+    'meta.blog.keywords': 'software development blog, automation insights, digital transformation, technology trends',
 
     // Hero
     'hero.headline': 'Where Marketing Meets Engineering',
@@ -121,7 +126,27 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'footer.automation': 'Systems - Automation',
     'footer.about': 'About Us',
     'footer.portfolio': 'Portfolio',
+    'footer.blog': 'Blog',
     'footer.copyright': '© 2025 Digital Frog. All rights reserved. Built with engineering precision.',
+
+    // Blog
+    'blog.title': 'Blog',
+    'blog.subtitle': 'Expert insights on software development, automation, and digital transformation',
+    'blog.readMore': 'Read more',
+    'blog.backToBlog': 'Back to blog',
+    'blog.relatedPosts': 'Related posts',
+    'blog.minutesRead': 'minutes read',
+    'blog.comingSoon': 'Coming soon',
+    'blog.comingSoonDesc': 'We\'re preparing expert insights on software development, automation, and digital transformation. Check back soon!',
+    'blog.author': 'By',
+    'blog.publishedOn': 'Published on',
+    'blog.updatedOn': 'Updated on',
+    'blog.category': 'Category',
+    'blog.tags': 'Tags',
+    'blog.sharePost': 'Share this post',
+    'blog.readyToStart': 'Ready to start your project?',
+    'blog.readyToStartDesc': 'Let\'s discuss how we can help you grow with custom software development and automation.',
+    'blog.getStarted': 'Get Started',
     
     // Contact Page
     'contact.title': "Let's Build Something Great",
@@ -1536,6 +1561,7 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     // Navigation
     'nav.services': 'Servicios',
     'nav.portfolio': 'Portafolio',
+    'nav.blog': 'Blog',
     'nav.about': 'Nosotros',
     'nav.contact': 'Contacto',
     'nav.cta': 'Comienza tu proyecto',
@@ -1560,6 +1586,10 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'meta.services.title': 'Servicios - SEO y Desarrollo Software Personalizado | Digital Frog',
     'meta.services.description': 'Digital Frog ofrece servicios completos de SEO y desarrollo de software personalizado. Desde auditorías técnicas hasta aplicaciones full-stack.',
     'meta.services.keywords': 'servicios SEO, desarrollo software personalizado, aplicaciones web, auditoría técnica SEO, optimización rendimiento',
+
+    'meta.blog.title': 'Blog - Desarrollo de Software y Automatización | Digital Frog',
+    'meta.blog.description': 'Contenido experto sobre desarrollo de software a medida, automatización de procesos y transformación digital para empresas en Chile.',
+    'meta.blog.keywords': 'blog desarrollo software, automatización procesos, transformación digital, tendencias tecnología',
 
     // Hero
     'hero.headline': 'Donde el Marketing se encuentra con la Ingeniería',
@@ -1649,7 +1679,27 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'footer.automation': 'Sistemas - Automatización',
     'footer.about': 'Nosotros',
     'footer.portfolio': 'Portafolio',
+    'footer.blog': 'Blog',
     'footer.copyright': '© 2025 Digital Frog. Hecho con ingeniería en Chile.',
+
+    // Blog
+    'blog.title': 'Blog',
+    'blog.subtitle': 'Contenido experto sobre desarrollo de software, automatización y transformación digital',
+    'blog.readMore': 'Leer más',
+    'blog.backToBlog': 'Volver al blog',
+    'blog.relatedPosts': 'Artículos relacionados',
+    'blog.minutesRead': 'minutos de lectura',
+    'blog.comingSoon': 'Próximamente',
+    'blog.comingSoonDesc': 'Estamos preparando contenido experto sobre desarrollo de software, automatización y transformación digital. ¡Vuelve pronto!',
+    'blog.author': 'Por',
+    'blog.publishedOn': 'Publicado el',
+    'blog.updatedOn': 'Actualizado el',
+    'blog.category': 'Categoría',
+    'blog.tags': 'Etiquetas',
+    'blog.sharePost': 'Compartir artículo',
+    'blog.readyToStart': '¿Listo para comenzar tu proyecto?',
+    'blog.readyToStartDesc': 'Conversemos sobre cómo podemos ayudarte a crecer con desarrollo de software personalizado y automatización.',
+    'blog.getStarted': 'Comenzar',
     
     // Contact Page
     'contact.title': 'Hagamos crecer tu negocio',
@@ -3060,6 +3110,154 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
       }
     }
   },
+
+  sr: {
+    // Navigation
+    'nav.services': 'Usluge',
+    'nav.portfolio': 'Portfolio',
+    'nav.blog': 'Blog',
+    'nav.about': 'O nama',
+    'nav.contact': 'Kontakt',
+    'nav.cta': 'Pokrenite projekat',
+
+    // Meta tags for main pages
+    'meta.homepage.title': 'Digital Frog - Gde se Marketing Susreće sa Inženjeringom',
+    'meta.homepage.description': 'Od SEO osnova do softvera po meri—gradimo kompletne digitalne sisteme projektovane za rast, automatizovane za skaliranje, merene sa preciznošću.',
+    'meta.homepage.keywords': 'digitalni marketing, SEO usluge, razvoj softvera po meri, razvoj veb sajtova, automatizacija marketinga',
+
+    'meta.about.title': 'O nama - Digital Frog | Gde se Marketing Susreće sa Inženjeringom',
+    'meta.about.description': 'Saznajte više o Digital Frog, gde se marketing susreće sa inženjeringom. Gradimo kompletne digitalne sisteme koji rastu sa vašim biznisom.',
+    'meta.about.keywords': 'o digital frog, marketing inženjering, tim za razvoj veba, SEO eksperti',
+
+    'meta.contact.title': 'Kontakt - Digital Frog | Hajde da Izgradimo Nešto Odlično',
+    'meta.contact.description': 'Spremni da transformišete svoju digitalnu prisutnost? Kontaktirajte Digital Frog za SEO usluge, razvoj softvera po meri i automatizaciju marketinga.',
+    'meta.contact.keywords': 'kontakt digital frog, SEO konsultacije, ponuda razvoj softvera, automatizacija marketinga',
+
+    'meta.portfolio.title': 'Portfolio - Digital Frog Priče o Uspešnosti',
+    'meta.portfolio.description': 'Pogledajte kako je Digital Frog pomogao preduzećima da rastu sa SEO optimizacijom, softverom po meri i rešenjima za automatizaciju.',
+    'meta.portfolio.keywords': 'digital frog portfolio, SEO studije slučaja, projekti razvoja softvera, priče o uspešnosti klijenata',
+
+    'meta.services.title': 'Usluge - SEO i Razvoj Softvera po Meri | Digital Frog',
+    'meta.services.description': 'Digital Frog nudi sveobuhvatne SEO usluge i razvoj softvera po meri. Od tehničkih audita do full-stack aplikacija.',
+    'meta.services.keywords': 'SEO usluge, razvoj softvera po meri, veb aplikacije, tehnički SEO audit, optimizacija performansi',
+
+    'meta.blog.title': 'Blog - Razvoj Softvera i Automatizacija | Digital Frog',
+    'meta.blog.description': 'Stručni uvidi o razvoju softvera po meri, automatizaciji procesa i digitalnoj transformaciji za preduzeća.',
+    'meta.blog.keywords': 'blog razvoj softvera, automatizacija procesa, digitalna transformacija, tehnološki trendovi',
+
+    // Hero
+    'hero.headline': 'Gde se Marketing Susreće sa Inženjeringom',
+    'hero.subtitle': 'Od SEO osnova do softvera po meri—gradimo kompletne digitalne sisteme projektovane za rast, automatizovane za skaliranje, merene sa preciznošću.',
+    'hero.cta.primary': 'Pokrenite projekat',
+    'hero.cta.secondary': 'Pogledajte šta gradimo',
+
+    // Stats
+    'stats.pagespeed': 'PageSpeed Score Garancija',
+    'stats.automated': 'Automatska Dostava',
+    'stats.days': 'Dana Prosečna Implementacija',
+
+    // Trust bar
+    'trust.clients': 'Aktivni Klijenti',
+    'trust.revenue': 'Prosečno Povećanje Prihoda',
+    'trust.time': 'Prosečno Vreme Uštede/Nedelja',
+
+    // Footer
+    'footer.tagline': 'Razvijamo digitalna rešenja od 2021.',
+    'footer.services': 'Usluge',
+    'footer.company': 'Kompanija',
+    'footer.contact': 'Kontakt',
+    'footer.address': 'Los Militares 5620, Of.905, Las Condes, Santiago, Chile',
+    'footer.seo': 'Osnova - SEO',
+    'footer.webdev': 'Infrastruktura - Veb Dev',
+    'footer.automation': 'Sistemi - Automatizacija',
+    'footer.about': 'O nama',
+    'footer.portfolio': 'Portfolio',
+    'footer.blog': 'Blog',
+    'footer.copyright': '© 2025 Digital Frog. Sva prava zadržana. Izgrađeno sa inženjerskom preciznošću.',
+
+    // Blog
+    'blog.title': 'Blog',
+    'blog.subtitle': 'Stručni uvidi o razvoju softvera, automatizaciji i digitalnoj transformaciji',
+    'blog.readMore': 'Pročitaj više',
+    'blog.backToBlog': 'Nazad na blog',
+    'blog.relatedPosts': 'Povezani članci',
+    'blog.minutesRead': 'minuta čitanja',
+    'blog.comingSoon': 'Uskoro',
+    'blog.comingSoonDesc': 'Pripremamo stručne uvide o razvoju softvera, automatizaciji i digitalnoj transformaciji. Vratite se uskoro!',
+    'blog.author': 'Od',
+    'blog.publishedOn': 'Objavljeno',
+    'blog.updatedOn': 'Ažurirano',
+    'blog.category': 'Kategorija',
+    'blog.tags': 'Tagovi',
+    'blog.sharePost': 'Podeli članak',
+    'blog.readyToStart': 'Spremni da pokrenete projekat?',
+    'blog.readyToStartDesc': 'Razgovarajmo o tome kako možemo da vam pomognemo da rastete sa razvojem softvera po meri i automatizacijom.',
+    'blog.getStarted': 'Počni',
+
+    // Contact Page
+    'contact.title': 'Hajde da Izgradimo Nešto Odlično',
+    'contact.subtitle': 'Recite nam o svom projektu i pokazaćemo vam kako inženjerski principi mogu da transformišu vašu digitalnu prisutnost',
+    'contact.step1.title': 'Šta vam je potrebno?',
+    'contact.step2.title': 'Detalji vašeg projekta',
+    'contact.step3.title': 'Vaši podaci',
+    'contact.service.seo': 'SEO (više veb saobraćaja)',
+    'contact.service.webdev': 'Veb razvoj (sajtovi i aplikacije)',
+    'contact.service.automation': 'Automatizacija (procesi)',
+    'contact.service.all': 'Nisam siguran / Sve',
+    'contact.budget': 'Približni budžet',
+    'contact.budget.under5k': 'Manje od $5K',
+    'contact.budget.5k15k': '$5K - $15K',
+    'contact.budget.15k50k': '$15K - $50K',
+    'contact.budget.50kplus': '$50K+',
+    'contact.budget.retainer': 'Kontinuirani retainer',
+    'contact.project': 'Recite nam šta želite da postignete',
+    'contact.timeline': 'Rokovi',
+    'contact.timeline.asap': 'Što je pre moguće',
+    'contact.timeline.1-3': '1-3 meseca',
+    'contact.timeline.3-6': '3-6 meseci',
+    'contact.timeline.6plus': '6+ meseci',
+    'contact.name': 'Ime',
+    'contact.email': 'Email',
+    'contact.company': 'Kompanija',
+    'contact.phone': 'Telefon',
+    'contact.language': 'Preferirani jezik',
+    'contact.next': 'Sledeće',
+    'contact.back': 'Nazad',
+    'contact.send': 'Pošalji',
+    'contact.success': 'Gotovo! Kontaktiraćemo vas u roku od 24 sata.',
+    'contact.alternative': 'Ostali načini kontakta',
+    'contact.available': 'Dostupni Pon-Pet, 9-18h CLT',
+
+    // About Page
+    'about.title': 'Gde se marketing susreće sa inženjeringom',
+    'about.subtitle': 'Kreiran od strane inženjera koji razume kako da uvećava biznis',
+    'about.story.title': 'Od građevinskog inženjera do digitalnih sistema',
+    'about.story.content': 'Sa pozadinom u građevinskom inženjeringu, donosim sistematski i precizan pristup digitalnom marketingu. Svaki projekat tretiraju kao inženjerski problem: analiziram, planiram, merim i optimizujem. Nema probe i greške—gradim digitalnu infrastrukturu koja donosi predvidive rezultate.',
+    'about.philosophy.title': 'Zašto inženjering + marketing?',
+    'about.value1': 'Konkretni podaci, a ne slutnje',
+    'about.value2': 'Sistemi koji funkcionišu, a ne pojedinačne taktike',
+    'about.value3': 'Automatizacija koja štedi vreme',
+    'about.value4': 'Stvarni rezultati, a ne metrije taštine',
+    'about.tech.title': 'Najnovija tehnologija',
+    'about.tech.subtitle': 'Radimo ono što propovedamo—90+ PageSpeed u svemu što gradimo',
+    'about.cta': 'Radimo zajedno',
+
+    // Portfolio Page
+    'portfolio.title': 'Naš rad',
+    'portfolio.subtitle': 'Stvarni rezultati za kompanije koje žele da rastu',
+    'portfolio.filter.all': 'Sve',
+    'portfolio.filter.seo': 'SEO',
+    'portfolio.filter.webdev': 'Veb razvoj',
+    'portfolio.filter.automation': 'Automatizacija',
+    'portfolio.view': 'Pogledaj slučaj',
+
+    // Services Page
+    'services.title': 'Naše usluge',
+    'services.subtitle': 'Tri nivoa digitalne infrastrukture',
+    'services.final_cta.title': 'Spremni da počnete?',
+    'services.final_cta.description': 'Razgovarajmo o vašem projektu i vidimo kako možemo da vam pomognemo da rastete.',
+    'services.final_cta.button': 'Počni razgovor',
+  },
 };
 
 /**
@@ -3097,6 +3295,7 @@ export function getTranslations(lang: Language) {
  */
 export function detectLanguageFromPath(pathname: string): Language {
   if (pathname.startsWith('/es')) return 'es';
+  if (pathname.startsWith('/sr')) return 'sr';
   if (pathname.startsWith('/en')) return 'en';
   return 'en'; // Default fallback
 }
@@ -3107,77 +3306,129 @@ export function detectLanguageFromPath(pathname: string): Language {
 export function getLocalizedPath(path: string, lang: Language): string {
   // If path is just "/" return language root
   if (path === '/') {
-    return lang === 'en' ? '/' : '/es';
+    if (lang === 'es') return '/es';
+    if (lang === 'sr') return '/sr';
+    return '/';
   }
   
   // Remove any existing language prefix
-  const cleanPath = path.replace(/^\/(en|es)/, '');
+  const cleanPath = path.replace(/^\/(en|es|sr)/, '');
   
-  // Add language prefix for Spanish, keep English as default
-  return lang === 'es' ? `/es${cleanPath}` : cleanPath;
+  // Add language prefix, keep English as default
+  if (lang === 'es') return `/es${cleanPath}`;
+  if (lang === 'sr') return `/sr${cleanPath}`;
+  return cleanPath;
 }
 
 /**
  * Remove language prefix from path
  */
 export function getCleanPath(pathname: string): string {
-  return pathname.replace(/^\/(en|es)/, '') || '/';
+  return pathname.replace(/^\/(en|es|sr)/, '') || '/';
 }
 
 /**
  * Route mapping for language switching between different URL structures
  */
-const ROUTE_MAPPING: Record<string, { en: string; es: string }> = {
+const ROUTE_MAPPING: Record<string, { en: string; es: string; sr: string }> = {
+  // Blog routes
+  '/blog': {
+    en: '/blog',
+    es: '/blog',
+    sr: '/blog'
+  },
   // Landing pages with different URL structures
   '/services/custom-software': {
     en: '/services/custom-software',
-    es: '/servicios/software-a-medida'
+    es: '/servicios/software-a-medida',
+    sr: '/usluge/softver-po-meri'
   },
   '/servicios/software-a-medida': {
     en: '/services/custom-software',
-    es: '/servicios/software-a-medida'
+    es: '/servicios/software-a-medida',
+    sr: '/usluge/softver-po-meri'
+  },
+  '/usluge/softver-po-meri': {
+    en: '/services/custom-software',
+    es: '/servicios/software-a-medida',
+    sr: '/usluge/softver-po-meri'
   },
   '/services/process-automation': {
     en: '/services/process-automation',
-    es: '/servicios/automatizacion-procesos'
+    es: '/servicios/automatizacion-procesos',
+    sr: '/usluge/automatizacija-procesa'
   },
   '/servicios/automatizacion-procesos': {
     en: '/services/process-automation',
-    es: '/servicios/automatizacion-procesos'
+    es: '/servicios/automatizacion-procesos',
+    sr: '/usluge/automatizacija-procesa'
+  },
+  '/usluge/automatizacija-procesa': {
+    en: '/services/process-automation',
+    es: '/servicios/automatizacion-procesos',
+    sr: '/usluge/automatizacija-procesa'
   },
   // New service pages
   '/services/seo': {
     en: '/services/seo',
-    es: '/servicios/seo'
+    es: '/servicios/seo',
+    sr: '/usluge/seo'
   },
   '/servicios/seo': {
     en: '/services/seo',
-    es: '/servicios/seo'
+    es: '/servicios/seo',
+    sr: '/usluge/seo'
+  },
+  '/usluge/seo': {
+    en: '/services/seo',
+    es: '/servicios/seo',
+    sr: '/usluge/seo'
   },
   '/services/web-development': {
     en: '/services/web-development',
-    es: '/servicios/desarrollo-web'
+    es: '/servicios/desarrollo-web',
+    sr: '/usluge/veb-razvoj'
   },
   '/servicios/desarrollo-web': {
     en: '/services/web-development',
-    es: '/servicios/desarrollo-web'
+    es: '/servicios/desarrollo-web',
+    sr: '/usluge/veb-razvoj'
+  },
+  '/usluge/veb-razvoj': {
+    en: '/services/web-development',
+    es: '/servicios/desarrollo-web',
+    sr: '/usluge/veb-razvoj'
   },
   '/services/automation': {
     en: '/services/automation',
-    es: '/servicios/automatizacion'
+    es: '/servicios/automatizacion',
+    sr: '/usluge/automatizacija'
   },
   '/servicios/automatizacion': {
     en: '/services/automation',
-    es: '/servicios/automatizacion'
+    es: '/servicios/automatizacion',
+    sr: '/usluge/automatizacija'
+  },
+  '/usluge/automatizacija': {
+    en: '/services/automation',
+    es: '/servicios/automatizacion',
+    sr: '/usluge/automatizacija'
   },
   // Professional services
   '/solutions/professional-services': {
     en: '/solutions/professional-services',
-    es: '/soluciones/servicios-profesionales'
+    es: '/soluciones/servicios-profesionales',
+    sr: '/resenja/profesionalne-usluge'
   },
   '/soluciones/servicios-profesionales': {
     en: '/solutions/professional-services',
-    es: '/soluciones/servicios-profesionales'
+    es: '/soluciones/servicios-profesionales',
+    sr: '/resenja/profesionalne-usluge'
+  },
+  '/resenja/profesionalne-usluge': {
+    en: '/solutions/professional-services',
+    es: '/soluciones/servicios-profesionales',
+    sr: '/resenja/profesionalne-usluge'
   }
 };
 
@@ -3191,7 +3442,9 @@ export function getLanguageSwitchPath(currentPath: string, targetLang: Language)
   const routeMapping = ROUTE_MAPPING[cleanPath];
   if (routeMapping) {
     const targetPath = routeMapping[targetLang];
-    return targetLang === 'en' ? targetPath : `/es${targetPath}`;
+    if (targetLang === 'es') return `/es${targetPath}`;
+    if (targetLang === 'sr') return `/sr${targetPath}`;
+    return targetPath;
   }
   
   // For standard routes, use normal localization

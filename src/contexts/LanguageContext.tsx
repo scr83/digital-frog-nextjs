@@ -4,7 +4,7 @@ import { createContext, useContext, useState, useEffect, ReactNode } from 'react
 import { usePathname } from 'next/navigation';
 import { getTranslations, type Language as TranslationLanguage } from '@/lib/translations';
 
-type Language = 'en' | 'es';
+type Language = 'en' | 'es' | 'sr';
 
 interface LanguageContextType {
   language: Language;
@@ -20,7 +20,14 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const isSpanish = pathname?.startsWith('/es');
-    setLanguage(isSpanish ? 'es' : 'en');
+    const isSerbian = pathname?.startsWith('/sr');
+    if (isSerbian) {
+      setLanguage('sr');
+    } else if (isSpanish) {
+      setLanguage('es');
+    } else {
+      setLanguage('en');
+    }
   }, [pathname]);
 
   const t = (key: string): any => {

@@ -1,7 +1,38 @@
 import { MetadataRoute } from 'next';
+import { getAllPosts } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://digitalfrog.co';
+  const posts = getAllPosts();
+  
+  // Blog listing pages
+  const blogPages = [
+    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/es/blog`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/sr/blog`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.8 },
+  ];
+
+  // Individual blog posts in all languages
+  const blogPosts = posts.flatMap(post => [
+    {
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.updatedAt),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/es/blog/${post.slugEs}`,
+      lastModified: new Date(post.updatedAt),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/sr/blog/${post.slugSr}`,
+      lastModified: new Date(post.updatedAt),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]);
   
   return [
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
@@ -26,5 +57,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/es/servicios/automatizacion-procesos`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/solutions/professional-services`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/es/soluciones/servicios-profesionales`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    
+    // Blog pages
+    ...blogPages,
+    
+    // Blog posts
+    ...blogPosts,
   ];
 }

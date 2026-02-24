@@ -16,7 +16,7 @@ interface FormData {
   email: string;
   company: string;
   phone: string;
-  preferredLanguage: 'en' | 'es';
+  preferredLanguage: 'en' | 'es' | 'sr';
 }
 
 const Contact = () => {
