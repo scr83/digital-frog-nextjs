@@ -425,7 +425,7 @@ export const blogPosts: BlogPost[] = [
 <div class="cta-box early-cta">
   <h3>¿Quieres Saltarte la Investigación?</h3>
   <p>Obtén tu número específico con el diagnóstico gratuito de proyecto de <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>. Evaluaremos tu proyecto y te daremos una cotización transparente en 48 horas.</p>
-  <a href="/es/contacto" class="cta-button">Obtén un Diagnóstico Gratuito — Sin Compromiso</a>
+  <a href="/es/contact" class="cta-button">Obtén un Diagnóstico Gratuito — Sin Compromiso</a>
 </div>
 
 <h2 id="por-que-nadie-habla-precios">Por Qué Nadie Habla de Precios de Software</h2>
@@ -521,7 +521,7 @@ export const blogPosts: BlogPost[] = [
 <div class="cta-box mid-cta">
   <h3>¿Cansado de Cotizaciones Vagas?</h3>
   <p>Obtén una propuesta transparente de <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a> — te diremos exactamente lo que cuesta, cuánto toma, y qué obtienes.</p>
-  <a href="/es/contacto" class="cta-button">Comienza tu Proyecto Hoy — Diagnóstico Gratuito</a>
+  <a href="/es/contact" class="cta-button">Comienza tu Proyecto Hoy — Diagnóstico Gratuito</a>
 </div>
 
 <h2 id="software-vs-saas-matematicas">Software a Medida vs. SaaS Mensual — Las Matemáticas</h2>
@@ -654,7 +654,7 @@ export const blogPosts: BlogPost[] = [
     <li>✓ Proyectos comenzando desde $5,000 USD</li>
   </ul>
   
-  <a href="/es/contacto" class="cta-button primary">Obtén un Diagnóstico Gratuito — Respuesta en 48 Horas</a>
+  <a href="/es/contact" class="cta-button primary">Obtén un Diagnóstico Gratuito — Respuesta en 48 Horas</a>
 </div>
     `,
     contentSr: `
@@ -683,12 +683,12 @@ export const blogPosts: BlogPost[] = [
 
 <p>Evo našeg odgovora: Softver po meri počinje od <strong>5.000 USD</strong> i skalira se sa veličinom i složenošću. Raščlanićemo tačno šta dobijate na svakom nivou, šta podiže cenu, i kako pametno planirati budžet bez preterivanja u trošenju.</p>
 
-<p>Prva pominka <strong><a href="/">Digital Frog</a></strong> — verujemo da transparentnost gradi poverenje i privlači bolje klijente.</p>
+<p>Prva pominka <strong><a href="https://digitalfrog.co">Digital Frog</a></strong> — verujemo da transparentnost gradi poverenje i privlači bolje klijente.</p>
 
 <div class="cta-box early-cta">
   <h3>Želite da Preskočite Istraživanje?</h3>
   <p>Dobijte vaš specifičan broj sa besplatnom dijagnostikom projekta Digital Frog. Procenićemo vaš projekat i dati vam transparentnu ponudu za 48 sati.</p>
-  <a href="/kontakt" class="cta-button">Dobijte Besplatnu Dijagnostiku — Bez Obaveza</a>
+  <a href="/sr/contact" class="cta-button">Dobijte Besplatnu Dijagnostiku — Bez Obaveza</a>
 </div>
 
 <h2 id="zasto-niko-ne-govori-cene">Zašto Niko ne Govori o Cenama Softvera</h2>
@@ -699,7 +699,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Naš pristup: transparentnost gradi poverenje i privlači bolje klijente. Kada znate otprilike koliko stvari koštaju, možete se fokusirati na to da li smo pravi izbor za vaš projekat.</p>
 
-<p>Zato <a href="/services/custom-software">naše usluge softvera po meri</a> počinju sa jasnim opsezima cena i detaljnim procesom otkrivanja.</p>
+<p>Zato <a href="/sr/services/custom-software">naše usluge softvera po meri</a> počinju sa jasnim opsezima cena i detaljnim procesom otkrivanja.</p>
 
 <h2 id="kratak-odgovor">Kratak Odgovor — Softver Po Meri Počinje od 5.000 USD</h2>
 
@@ -750,7 +750,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Ovo je funkcionalnost na nivou preduzeća napravljena specifično za vaš posao. Često ovi sistemi zamenjuju više SaaS pretplata i pružaju ROI u prvoj godini.</p>
 
-<p>Mnogi od ovih projekata imaju koristi od <a href="/services/process-automation">usluga automatizacije procesa</a> da maksimizuju dobitke efikasnosti.</p>
+<p>Mnogi od ovih projekata imaju koristi od <a href="/sr/services/process-automation">usluga automatizacije procesa</a> da maksimizuju dobitke efikasnosti.</p>
 
 <h2 id="faktori-cene">Šta Stvarno Podiže Cenu</h2>
 
@@ -766,7 +766,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Migracija podataka</strong> — Premestanje podataka iz postojećih sistema bezbedno i tačno</li>
 </ul>
 
-<p>Većina projekata može imati koristi od naših <a href="/services/automation">usluga automatizacije</a> da smanji stalnu operacijsku složenost.</p>
+<p>Većina projekata može imati koristi od naših <a href="/sr/services/automation">usluga automatizacije</a> da smanji stalnu operacijsku složenost.</p>
 
 <h2 id="stednja-troskova">Šta Drži Cenu Nisko</h2>
 
@@ -784,7 +784,7 @@ export const blogPosts: BlogPost[] = [
 <div class="cta-box mid-cta">
   <h3>Umorni od Nejasnih Ponuda?</h3>
   <p>Dobijte transparentnu ponudu od Digital Frog — reći ćemo vam tačno koliko košta, koliko traje, i šta dobijate.</p>
-  <a href="/kontakt" class="cta-button">Započnite Vaš Projekat Danas — Besplatna Dijagnostika</a>
+  <a href="/sr/contact" class="cta-button">Započnite Vaš Projekat Danas — Besplatna Dijagnostika</a>
 </div>
 
 <h2 id="softver-vs-saas-matematika">Softver Po Meri vs. Mesečni SaaS — Matematika</h2>
@@ -866,7 +866,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Bez spominjanja testiranja, obuke ili dokumentacije</strong> — Dobićete softver koji je težak za korišćenje i održavanje</li>
 </ul>
 
-<p>Za više smernica o tome kada softver po meri ima smisla, pročitajte naš post: <a href="/blog/7-signs-business-needs-process-automation">7 Znakova da Vaš Biznis Treba Automatizaciju Procesa</a></p>
+<p>Za više smernica o tome kada softver po meri ima smisla, pročitajte naš post: <a href="/sr/blog/7-znakova-da-vam-treba-automatizacija-procesa">7 Znakova da Vaš Biznis Treba Automatizaciju Procesa</a></p>
 
 <h2 id="realni-projekti">Realni Projekti, Realni Brojevi</h2>
 
@@ -880,7 +880,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Ovi projekti pokazuju kako različiti opsezi se prevode u različite investicije. Zajednički faktor: svaki sistem se isplati za 3-6 meseci kroz uštede vremena i poboljšane rezultate.</p>
 
-<p>Pogledajte više primera u našem <a href="/portfolio">portfolio i studije slučaja</a>, ili naučite o našim <a href="/services/web-development">uslugama web razvoja</a> za optimizaciju digitalne prisutnosti.</p>
+<p>Pogledajte više primera u našem <a href="/sr/portfolio">portfolio i studije slučaja</a>, ili naučite o našim <a href="/sr/services/web-development">uslugama web razvoja</a> za optimizaciju digitalne prisutnosti.</p>
 
 <h2 id="cesta-pitanja">Često Postavljena Pitanja</h2>
 
@@ -917,7 +917,7 @@ export const blogPosts: BlogPost[] = [
     <li>✓ Projekti počevši od 5.000 USD</li>
   </ul>
   
-  <a href="/kontakt" class="cta-button primary">Dobijte Besplatnu Dijagnostiku — Odgovor za 48 Sati</a>
+  <a href="/sr/contact" class="cta-button primary">Dobijte Besplatnu Dijagnostiku — Odgovor za 48 Sati</a>
 </div>
     `,
     author: 'Sebastian Contreras',
@@ -1358,12 +1358,12 @@ export const blogPosts: BlogPost[] = [
 
 <p>Aquí hay una comparación honesta, sin rodeos, con números reales, trade-offs reales, y un framework de decisión que funciona. El software a medida comienza en <strong>$5,000 USD</strong> — menos de lo que muchas empresas piensan, y a menudo menos que 18 meses de suscripciones SaaS.</p>
 
-<p>Primera mención de <strong><a href="/">Digital Frog</a></strong> — hemos ayudado a empresas a tomar esta decisión basada en datos, no en hype.</p>
+<p>Primera mención de <strong><a href="https://digitalfrog.co">Digital Frog</a></strong> — hemos ayudado a empresas a tomar esta decisión basada en datos, no en hype.</p>
 
 <div class="cta-box early-cta">
   <h3>¿Ya Te Inclinas Por Una Opción?</h3>
   <p>Obtén un diagnóstico gratuito de Digital Frog — te daremos una recomendación honesta, incluso si SaaS es la mejor opción para ti.</p>
-  <a href="/es/contacto" class="cta-button">Obtén un Diagnóstico Gratuito</a>
+  <a href="/es/contact" class="cta-button">Obtén un Diagnóstico Gratuito</a>
 </div>
 
 <h2 id="que-es-saas-software-medida">¿Qué Es Exactamente SaaS? ¿Qué Es Software a Medida?</h2>
@@ -1503,7 +1503,7 @@ export const blogPosts: BlogPost[] = [
 <div class="cta-box mid-cta">
   <h3>¿No Estás Seguro Qué Enfoque Funciona Para Tu Empresa?</h3>
   <p>Digital Frog proporciona evaluaciones honestas — te diremos si SaaS es mejor para tu caso. Sin ego, solo datos.</p>
-  <a href="/es/contacto" class="cta-button">Obtén un Diagnóstico Gratuito — Sin Compromiso</a>
+  <a href="/es/contact" class="cta-button">Obtén un Diagnóstico Gratuito — Sin Compromiso</a>
 </div>
 
 <h2 id="costo-total-propiedad">Costo Total de Propiedad — Las Matemáticas de 3 Años</h2>
@@ -1572,7 +1572,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>¿Un flujo de trabajo a medida te daría ventaja competitiva?</strong> (Sí = A medida, No = SaaS)</li>
 </ol>
 
-<p><strong>Puntaje:</strong> 4+ hacia a medida → <a href="/es/contacto">habla con nosotros</a>. 4+ hacia SaaS → ahorra tu dinero y usa herramientas existentes.</p>
+<p><strong>Puntaje:</strong> 4+ hacia a medida → <a href="/es/contact">habla con nosotros</a>. 4+ hacia SaaS → ahorra tu dinero y usa herramientas existentes.</p>
 
 <p>Para más orientación en optimización de flujo de trabajo, lee: <a href="/es/blog/senales-empresa-necesita-automatizar">7 Señales de que tu Empresa Necesita Automatización de Procesos</a></p>
 
@@ -1623,7 +1623,7 @@ export const blogPosts: BlogPost[] = [
     <li>✓ Te decimos la verdad, no lo que quieres escuchar</li>
   </ul>
   
-  <a href="/es/contacto" class="cta-button primary">Obtén un Diagnóstico Gratuito — Averigüémoslo Juntos</a>
+  <a href="/es/contact" class="cta-button primary">Obtén un Diagnóstico Gratuito — Averigüémoslo Juntos</a>
 </div>
     `,
     contentSr: `
@@ -1651,12 +1651,12 @@ export const blogPosts: BlogPost[] = [
 
 <p>Evo poštene, bez oklevanja poredbe sa realnim brojevima, realnim kompromisima, i okvir odlučivanja koji funkcioniše. Softver po meri počinje od <strong>5.000 USD</strong> — manje nego što mnoga preduzeća misle, i često manje od 18 meseci SaaS pretplata.</p>
 
-<p>Prva pominka <strong><a href="/">Digital Frog</a></strong> — pomogli smo preduzećima da donesu ovu odluku na osnovu podataka, a ne hype-a.</p>
+<p>Prva pominka <strong><a href="https://digitalfrog.co">Digital Frog</a></strong> — pomogli smo preduzećima da donesu ovu odluku na osnovu podataka, a ne hype-a.</p>
 
 <div class="cta-box early-cta">
   <h3>Već Se Naginete Jednoj Strani?</h3>
   <p>Dobijte besplatnu dijagnostiku od Digital Frog — daćemo vam poštenu preporuku, čak i ako je SaaS bolja opcija za vas.</p>
-  <a href="/kontakt" class="cta-button">Dobijte Besplatnu Dijagnostiku</a>
+  <a href="/sr/contact" class="cta-button">Dobijte Besplatnu Dijagnostiku</a>
 </div>
 
 <h2 id="sta-je-saas-softver-po-meri">Šta Tačno Je SaaS? Šta Je Softver Po Meri?</h2>
@@ -1733,7 +1733,7 @@ export const blogPosts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>Za detaljno razlaganje cena softvera po meri, pogledajte naš sveobuhvatan vodič: <a href="/blog/how-much-does-custom-software-cost">Koliko Košta Softver Po Meri?</a></p>
+<p>Za detaljno razlaganje cena softvera po meri, pogledajte naš sveobuhvatan vodič: <a href="/sr/blog/koliko-kosta-softver-po-meri">Koliko Košta Softver Po Meri?</a></p>
 
 <h2 id="kada-je-saas-bolji">Kada Je SaaS Stvarno Bolja Opcija</h2>
 
@@ -1762,7 +1762,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Korišćenje 3+ SaaS alata</strong> koji bi stvarno trebalo da budu jedan integrisani sistem</li>
 </ul>
 
-<p>Ovi scenariji često imaju koristi od <a href="/services/custom-software">naših usluga softvera po meri</a> koji grade tačno ono što trebate.</p>
+<p>Ovi scenariji često imaju koristi od <a href="/sr/services/custom-software">naših usluga softvera po meri</a> koji grade tačno ono što trebate.</p>
 
 <h2 id="skriveni-troskovi-saas">Skriveni Troškovi SaaS koje Niko ne Spominje</h2>
 
@@ -1791,12 +1791,12 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Hosting i infrastruktura</strong> — mada moderan deployment (Vercel, AWS) ovo čini jednostavnijim</li>
 </ul>
 
-<p>Naše <a href="/services/web-development">usluge web razvoja</a> se bave deployment-om i podešavanjem infrastrukture da minimizuje ove brige.</p>
+<p>Naše <a href="/sr/services/web-development">usluge web razvoja</a> se bave deployment-om i podešavanjem infrastrukture da minimizuje ove brige.</p>
 
 <div class="cta-box mid-cta">
   <h3>Niste Sigurni Koji Pristup Odgovara Vašem Poslovanju?</h3>
   <p>Digital Frog pruža poštene ocene — reći ćemo vam ako je SaaS bolji za vaš slučaj. Bez ega, samo podaci.</p>
-  <a href="/kontakt" class="cta-button">Dobijte Besplatnu Dijagnostiku — Bez Obaveza</a>
+  <a href="/sr/contact" class="cta-button">Dobijte Besplatnu Dijagnostiku — Bez Obaveza</a>
 </div>
 
 <h2 id="ukupni-trosko-vlasnistva">Ukupni Troškovi Vlasništva — Matematika Za 3 Godine</h2>
@@ -1837,7 +1837,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Ovo smanjuje rizik</strong> dok maksimizira konkurentsku prednost</li>
 </ul>
 
-<p>Mnoge od ovih integracija imaju koristi od <a href="/services/process-automation">usluga automatizacije procesa</a> da besprekorno povežu sisteme.</p>
+<p>Mnoge od ovih integracija imaju koristi od <a href="/sr/services/process-automation">usluga automatizacije procesa</a> da besprekorno povežu sisteme.</p>
 
 <h2 id="realni-primeri">Realan Primer — Kako Su Preduzeća Donela Odluku</h2>
 
@@ -1849,7 +1849,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Pattern: Probaj SaaS prvo, nagibi na ograničenja, izračunaj stvarni troškove zaobilaznica vs kustom rešenje.</p>
 
-<p>Pogledajte više primera u našem <a href="/portfolio">portfolio i studije slučaja</a>.</p>
+<p>Pogledajte više primera u našem <a href="/sr/portfolio">portfolio i studije slučaja</a>.</p>
 
 <h2 id="okvir-odlucivanja">Okvir Odlučivanja od 7 Pitanja</h2>
 
@@ -1865,7 +1865,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Da li bi kustom tok rada vam dao konkurentsku prednost?</strong> (Da = Kustom, Ne = SaaS)</li>
 </ol>
 
-<p><strong>Ocenjivanje:</strong> 4+ ka kustom → <a href="/kontakt">pričajte sa nama</a>. 4+ ka SaaS → uštedite novac i koristite postojeće alate.</p>
+<p><strong>Ocenjivanje:</strong> 4+ ka kustom → <a href="/sr/contact">pričajte sa nama</a>. 4+ ka SaaS → uštedite novac i koristite postojeće alate.</p>
 
 <p>Za više smernica o optimizaciji toka rada, čitajte: <a href="/blog/7-signs-business-needs-process-automation">7 Znakova da Vaš Biznis Treba Automatizaciju Procesa</a></p>
 
@@ -1880,7 +1880,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Zadržite što radi</strong> — hibridni pristup je često najbolji</li>
 </ul>
 
-<p>Naše <a href="/services/automation">usluge automatizacije</a> mogu pomoći premošćavanje sistema tokom migracije.</p>
+<p>Naše <a href="/sr/services/automation">usluge automatizacije</a> mogu pomoći premošćavanje sistema tokom migracije.</p>
 
 <h2 id="cesta-pitanja">Često Postavljena Pitanja</h2>
 
@@ -1916,7 +1916,7 @@ export const blogPosts: BlogPost[] = [
     <li>✓ Govorimo vam istinu, ne ono što želite da čujete</li>
   </ul>
   
-  <a href="/kontakt" class="cta-button primary">Dobijte Besplatnu Dijagnostiku — Rešimo Zajedno</a>
+  <a href="/sr/contact" class="cta-button primary">Dobijte Besplatnu Dijagnostiku — Rešimo Zajedno</a>
 </div>
     `,
     author: 'Sebastian Contreras',
@@ -2420,12 +2420,12 @@ export const blogPosts: BlogPost[] = [
 
 <p>Aquí están las 7 señales inconfundibles de que es hora de automatizar, además de cómo se ve realmente la automatización (pista: no son plataformas RPA costosas) y cómo empezar sin abrumar a tu equipo. La automatización de procesos comienza en <strong>US$5.000 dólares</strong> — es más accesible de lo que la mayoría piensa.</p>
 
-<p>Primera mención de <strong><a href="/">Digital Frog</a></strong> — combinamos expertise en marketing con ingeniería de software para construir automatización que realmente funciona para empresas reales.</p>
+<p>Primera mención de <strong><a href="https://digitalfrog.co">Digital Frog</a></strong> — combinamos expertise en marketing con ingeniería de software para construir automatización que realmente funciona para empresas reales.</p>
 
 <div class="cta-box early-cta">
   <h3>¿Ya Sabes que Necesitas Automatización?</h3>
   <p>Sáltate la introducción — obtén un diagnóstico gratuito de Digital Frog. Identificaremos tus mayores oportunidades de automatización en una llamada.</p>
-  <a href="/es/contacto" class="cta-button">Obtén Diagnóstico Gratis — Sin Compromiso</a>
+  <a href="/es/contact" class="cta-button">Obtén Diagnóstico Gratis — Sin Compromiso</a>
 </div>
 
 <h2 id="senal-1-entrada-datos">Señal #1 — Tu Equipo Pasa Horas Ingresando Datos</h2>
@@ -2520,7 +2520,7 @@ export const blogPosts: BlogPost[] = [
 <div class="cta-box mid-cta">
   <h3>¿Reconoces 3 o Más Señales?</h3>
   <p>Probablemente estás perdiendo miles por mes en procesos manuales. Digital Frog se especializa en construir automatización que ahorra 10-20 horas por semana — comenzando desde US$5.000 dólares.</p>
-  <a href="/es/contacto" class="cta-button">Comienza tu Proyecto Hoy — Diagnóstico Gratuito</a>
+  <a href="/es/contact" class="cta-button">Comienza tu Proyecto Hoy — Diagnóstico Gratuito</a>
 </div>
 
 <h2 id="senal-6-clientes-esperando">Señal #6 — Tus Clientes Están Esperando Demasiado</h2>
@@ -2746,7 +2746,7 @@ export const blogPosts: BlogPost[] = [
     <li>✓ Diagnóstico gratuito con recomendaciones accionables</li>
   </ul>
   
-  <a href="/es/contacto" class="cta-button primary">Comienza tu Proyecto — Diagnóstico Gratuito, Sin Compromiso</a>
+  <a href="/es/contact" class="cta-button primary">Comienza tu Proyecto — Diagnóstico Gratuito, Sin Compromiso</a>
 </div>
     `,
     contentSr: `
@@ -2775,12 +2775,12 @@ export const blogPosts: BlogPost[] = [
 
 <p>Evo 7 nepogrešivih znakova da je vreme za automatizaciju, plus kako automatizacija stvarno izgleda (hint: nisu skupe RPA platforme) i kako da počnete bez opterećivanja vašeg tima. Automatizacija procesa počinje od <strong>5.000 USD</strong> — dostupnija je nego što većina misli.</p>
 
-<p>Prva pominka <strong><a href="/">Digital Frog</a></strong> — kombinujemo marketing ekspertizu sa softverskim inženjeringom da gradimo automatizaciju koja stvarno radi za realna preduzeća.</p>
+<p>Prva pominka <strong><a href="https://digitalfrog.co">Digital Frog</a></strong> — kombinujemo marketing ekspertizu sa softverskim inženjeringom da gradimo automatizaciju koja stvarno radi za realna preduzeća.</p>
 
 <div class="cta-box early-cta">
   <h3>Već Znate da Vam Treba Automatizacija?</h3>
   <p>Preskočite uvod — dobijte besplatnu dijagnostiku od Digital Frog. Identifikovaćemo vaše najveće prilike za automatizaciju u jednom pozivu.</p>
-  <a href="/kontakt" class="cta-button">Dobijte Besplatnu Dijagnostiku — Bez Obaveza</a>
+  <a href="/sr/contact" class="cta-button">Dobijte Besplatnu Dijagnostiku — Bez Obaveza</a>
 </div>
 
 <h2 id="znak-1-unos-podataka">Znak #1 — Vaš Tim Troši Sate na Unos Podataka</h2>
@@ -2801,7 +2801,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Pravi primer: Podaci o fakturisanju se automatski sinhronizuju sa računovodstvom, info o klijentima prolazi od kontakt formulara do CRM-a, a detalji projekta se ažuriraju kroz sve vaše alate istovremeno.</p>
 
-<p>Ovo je tačno ono što rešavaju <a href="/services/process-automation">naše usluge automatizacije procesa</a> — povezivanje vaših postojećih alata tako da podaci teku automatski umesto ručno.</p>
+<p>Ovo je tačno ono što rešavaju <a href="/sr/services/process-automation">naše usluge automatizacije procesa</a> — povezivanje vaših postojećih alata tako da podaci teku automatski umesto ručno.</p>
 
 <h2 id="znak-2-ljudske-greske">Znak #2 — Ljudske Greške Vas Koštaju Novac</h2>
 
@@ -2819,7 +2819,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Rešenje:</strong> Validaciona pravila, automatizovani tokovi rada, i sistemski generisani dokumenti. Umesto ručnog računanja troškova projekta, vaš sistem uzima stope, dodaje nadoknadu, uključuje poreze, i generiše tačne predloge svaki put.</p>
 
-<p>Naše <a href="/services/automation">usluge automatizacije</a> uključuju ugrađenu validaciju i proveru grešaka da eliminišu ove skupe greške.</p>
+<p>Naše <a href="/sr/services/automation">usluge automatizacije</a> uključuju ugrađenu validaciju i proveru grešaka da eliminišu ove skupe greške.</p>
 
 <h2 id="znak-3-excel-operativni-sistem">Znak #3 — Koristite Excel kao Operativni Sistem</h2>
 
@@ -2837,7 +2837,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Rešenje:</strong> Namenske alate koji zamenjuju haos tabela. Pravi sistem sa korisničkim dozvolama, audit tragovima, i kolaboracijom u realnom vremenu.</p>
 
-<p>Odluka između <a href="/services/custom-software">usluga softvera po meri</a> ili postojećih alata zavisi od vaših specifičnih potreba. Za detaljnu poredbu, pročitajte naš vodič o <a href="/blog/custom-software-vs-saas-which-is-right">Softver Po Meri vs. SaaS — Šta Je Bolje za Vaš Biznis?</a></p>
+<p>Odluka između <a href="/sr/services/custom-software">usluga softvera po meri</a> ili postojećih alata zavisi od vaših specifičnih potreba. Za detaljnu poredbu, pročitajte naš vodič o <a href="/sr/blog/softver-po-meri-vs-saas">Softver Po Meri vs. SaaS — Šta Je Bolje za Vaš Biznis?</a></p>
 
 <h2 id="znak-4-onboarding-nedelje">Znak #4 — Uvođenje Novih Članova Tima Traje Nedelje</h2>
 
@@ -2870,12 +2870,12 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Rešenje:</strong> Automatizovani dashboard-ovi sa živim podacima iz jednog izvora istine. Vaš dashboard se automatski ažurira dok se posao dešava, dajući vam vidljivost u realnom vremenu u performanse.</p>
 
-<p>Ovo često uključuje <a href="/services/web-development">usluge web razvoja</a> da se kreiraju prilagođeni dashboard-ovi koji uzimaju iz vaših postojećih sistema.</p>
+<p>Ovo često uključuje <a href="/sr/services/web-development">usluge web razvoja</a> da se kreiraju prilagođeni dashboard-ovi koji uzimaju iz vaših postojećih sistema.</p>
 
 <div class="cta-box mid-cta">
   <h3>Prepoznajete 3 ili Više Znakova?</h3>
   <p>Verovatno gubite hiljade mesečno na ručnim procesima. Digital Frog se specijalizuje za izgradnju automatizacije koja štedi 10-20 sati nedeljno — počevši od 5.000 USD.</p>
-  <a href="/kontakt" class="cta-button">Počnite Vaš Projekat Danas — Besplatna Dijagnostika</a>
+  <a href="/sr/contact" class="cta-button">Počnite Vaš Projekat Danas — Besplatna Dijagnostika</a>
 </div>
 
 <h2 id="znak-6-klijenti-cekaju">Znak #6 — Vaši Klijenti Čekaju Predugo</h2>
@@ -2896,7 +2896,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Pravi slučaj:</strong> Felipe Cuevas je video 60% poboljšanje u kvalitetu lead-ova i 15 sati ušteđenih nedeljno nakon implementacije marketing automatizacije. Brzi odgovori bolje konvertuju.</p>
 
-<p>Pogledajte više primera u našem <a href="/portfolio">portfolio i studije slučaja</a>.</p>
+<p>Pogledajte više primera u našem <a href="/sr/portfolio">portfolio i studije slučaja</a>.</p>
 
 <h2 id="znak-7-placanje-nekoriscenih-saas">Znak #7 — Plaćate SaaS Alate koje Jedva Koristite</h2>
 
@@ -2915,7 +2915,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Rešenje:</strong> Jedan prilagođeni alat koji zamenjuje 3-5 pretplata i stvarno odgovara vašem toku rada umesto da vas primorava da se prilagodite.</p>
 
-<p>Za detaljnu poredbu troškova, pročitajte našu sveobuhvatnu analizu: <a href="/blog/custom-software-vs-saas-which-is-right">Softver Po Meri vs. SaaS — Šta Je Bolje za Vaš Biznis?</a></p>
+<p>Za detaljnu poredbu troškova, pročitajte našu sveobuhvatnu analizu: <a href="/sr/blog/softver-po-meri-vs-saas">Softver Po Meri vs. SaaS — Šta Je Bolje za Vaš Biznis?</a></p>
 
 <h2 id="kako-izgleda-automatizacija">Kako Automatizacija Stvarno Izgleda (Nije Ono Što Mislite)</h2>
 
@@ -2968,7 +2968,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Poredite sa automatizacijom:</strong> Automatizacija procesa počevši od <strong>5.000 USD</strong> često se isplati za 3-6 meseci samo kroz uštede vremena.</p>
 
-<p>Za detaljne informacije o cenama, pogledajte naš sveobuhvatan vodič: <a href="/blog/how-much-does-custom-software-cost">Koliko Košta Softver Po Meri?</a></p>
+<p>Za detaljne informacije o cenama, pogledajte naš sveobuhvatan vodič: <a href="/sr/blog/koliko-kosta-softver-po-meri">Koliko Košta Softver Po Meri?</a></p>
 
 <h2 id="kako-poceti">Kako Početi Bez Opterećivanja Vašeg Tima</h2>
 
@@ -2988,7 +2988,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Ključni princip:</strong> Ne automatizujete sve odjednom. Počnite sa jednim procesom, dokažite vrednost, zatim proširite.</p>
 
-<p>Ovaj fazni pristup je tačno kako <a href="/services/process-automation">naše usluge automatizacije procesa</a> rade sa klijentima.</p>
+<p>Ovaj fazni pristup je tačno kako <a href="/sr/services/process-automation">naše usluge automatizacije procesa</a> rade sa klijentima.</p>
 
 <h2 id="okvir-prioriteta">Šta Prvo Automatizovati — Okvir Prioriteta</h2>
 
@@ -3065,7 +3065,7 @@ export const blogPosts: BlogPost[] = [
   <li>Stalno praćenje sprečava degradaciju performansi</li>
 </ul>
 
-<p>Pogledajte više primera i detaljnih studija slučaja u našem <a href="/portfolio">portfolio i studije slučaja</a>. Za profesionalne usluge specifično, proverite naša <a href="/solutions/professional-services">rešenja profesionalnih usluga</a>.</p>
+<p>Pogledajte više primera i detaljnih studija slučaja u našem <a href="/sr/portfolio">portfolio i studije slučaja</a>. Za profesionalne usluge specifično, proverite naša <a href="/sr/solutions/professional-services">rešenja profesionalnih usluga</a>.</p>
 
 <h2 id="cesta-pitanja">Često Postavljena Pitanja</h2>
 
@@ -3101,7 +3101,7 @@ export const blogPosts: BlogPost[] = [
     <li>✓ Besplatna dijagnostika sa akcijskim preporukama</li>
   </ul>
   
-  <a href="/kontakt" class="cta-button primary">Počnite Vaš Projekat — Besplatna Dijagnostika, Bez Obaveza</a>
+  <a href="/sr/contact" class="cta-button primary">Počnite Vaš Projekat — Besplatna Dijagnostika, Bez Obaveza</a>
 </div>
     `,
     author: 'Sebastian Contreras',
