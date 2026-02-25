@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: '¿Listo para transformar tu presencia digital? Contacta Digital Frog para servicios SEO, desarrollo de software personalizado y automatización de marketing.',
   keywords: 'contacto digital frog, consultoría SEO, cotización desarrollo software, automatización marketing',
   alternates: {
-    canonical: '/es/contact',
-    languages: { en: '/contact', es: '/es/contact' },
+    canonical: 'https://digitalfrog.co/es/contact',
+    languages: { 
+      en: 'https://digitalfrog.co/contact', 
+      es: 'https://digitalfrog.co/es/contact', 
+      sr: 'https://digitalfrog.co/sr/contact' 
+    },
   },
 };
 

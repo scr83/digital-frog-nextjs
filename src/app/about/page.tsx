@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: 'Learn about Digital Frog, where marketing meets engineering. We build complete digital systems that grow with your business.',
   keywords: 'about digital frog, marketing engineering, web development team, SEO experts',
   alternates: {
-    canonical: '/about',
-    languages: { en: '/about', es: '/es/about' },
+    canonical: 'https://digitalfrog.co/about',
+    languages: { 
+      en: 'https://digitalfrog.co/about', 
+      es: 'https://digitalfrog.co/es/about', 
+      sr: 'https://digitalfrog.co/sr/about' 
+    },
   },
 };
 

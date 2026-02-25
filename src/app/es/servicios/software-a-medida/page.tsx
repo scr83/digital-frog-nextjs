@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Desarrollo de software personalizado con aplicaciones empresariales, integración de IA y sistemas escalables. Soluciones de desarrollo full-stack.',
   keywords: 'desarrollo software personalizado, aplicaciones empresariales, integración IA, desarrollo full-stack, aplicaciones a medida',
   alternates: {
-    canonical: '/es/servicios/software-a-medida',
-    languages: { en: '/services/custom-software', es: '/es/servicios/software-a-medida' },
+    canonical: 'https://digitalfrog.co/es/servicios/software-a-medida',
+    languages: { 
+      en: 'https://digitalfrog.co/services/custom-software', 
+      es: 'https://digitalfrog.co/es/servicios/software-a-medida', 
+      sr: 'https://digitalfrog.co/sr/services/custom-software' 
+    },
   },
 };
 

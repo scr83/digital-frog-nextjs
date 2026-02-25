@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Custom software development with business applications, AI integration, and scalable systems. Full-stack development solutions.',
   keywords: 'custom software development, business applications, AI integration, full-stack development, custom applications',
   alternates: {
-    canonical: '/services/custom-software',
-    languages: { en: '/services/custom-software', es: '/es/servicios/software-a-medida' },
+    canonical: 'https://digitalfrog.co/services/custom-software',
+    languages: { 
+      en: 'https://digitalfrog.co/services/custom-software', 
+      es: 'https://digitalfrog.co/es/servicios/software-a-medida', 
+      sr: 'https://digitalfrog.co/sr/services/custom-software' 
+    },
   },
 };
 

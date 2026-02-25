@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Servicios profesionales de automatización de marketing con ingeniería de flujos de trabajo, sistemas potenciados por IA y optimización de procesos empresariales.',
   keywords: 'automatización marketing, automatización flujos trabajo, optimización procesos empresariales, sistemas marketing automatizados',
   alternates: {
-    canonical: '/es/servicios/automatizacion',
-    languages: { en: '/services/automation', es: '/es/servicios/automatizacion' },
+    canonical: 'https://digitalfrog.co/es/servicios/automatizacion',
+    languages: { 
+      en: 'https://digitalfrog.co/services/automation', 
+      es: 'https://digitalfrog.co/es/servicios/automatizacion', 
+      sr: 'https://digitalfrog.co/sr/services/automation' 
+    },
   },
 };
 

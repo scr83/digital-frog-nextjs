@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Professional digital services with strategic consulting, technical audits, and comprehensive digital solutions for businesses.',
   keywords: 'professional services, digital consulting, technical audits, digital strategy, business consulting',
   alternates: {
-    canonical: '/solutions/professional-services',
-    languages: { en: '/solutions/professional-services', es: '/es/soluciones/servicios-profesionales' },
+    canonical: 'https://digitalfrog.co/solutions/professional-services',
+    languages: { 
+      en: 'https://digitalfrog.co/solutions/professional-services', 
+      es: 'https://digitalfrog.co/es/soluciones/servicios-profesionales', 
+      sr: 'https://digitalfrog.co/sr/solutions/professional-services' 
+    },
   },
 };
 

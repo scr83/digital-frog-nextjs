@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Business process automation services with operations optimization, workflow engineering, and systematic automation solutions.',
   keywords: 'process automation, business operations, workflow optimization, automated processes, operations engineering',
   alternates: {
-    canonical: '/services/process-automation',
-    languages: { en: '/services/process-automation', es: '/es/servicios/automatizacion-procesos' },
+    canonical: 'https://digitalfrog.co/services/process-automation',
+    languages: { 
+      en: 'https://digitalfrog.co/services/process-automation', 
+      es: 'https://digitalfrog.co/es/servicios/automatizacion-procesos', 
+      sr: 'https://digitalfrog.co/sr/services/process-automation' 
+    },
   },
 };
 
