@@ -3161,6 +3161,68 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'trust.revenue': 'Prosečno Povećanje Prihoda',
     'trust.time': 'Prosečno Vreme Uštede/Nedelja',
 
+    // Services Section (Homepage)
+    'servicesSection.title': 'Tri Nivoa Digitalne Infrastrukture',
+    'servicesSection.subtitle': 'Ne samo da gradimo sajtove ili vodimo kampanje. Projektujemo kompletne sisteme koji rade zajedno.',
+
+    // Tier 1
+    'tier1.badge': 'NIVO 1',
+    'tier1.title': 'Temelj',
+    'tier1.subtitle': 'Digitalna Vidljivost',
+    'tier1.feature1': 'Sistematska SEO optimizacija',
+    'tier1.feature2': 'Tehnički auditi (inženjerski nivo)',
+    'tier1.feature3': 'Praćenje performansi (90+ PageSpeed)',
+    'tier1.feature4': 'Strategija i implementacija sadržaja',
+    'tier1.cta': 'Počni',
+    'tier1.price': 'Od 1.800 dolara/mesečno',
+
+    // Tier 2
+    'tier2.badge': 'NIVO 2',
+    'tier2.title': 'Infrastruktura',
+    'tier2.subtitle': 'Performantne Veb Aplikacije',
+    'tier2.feature1': 'Prilagođene Next.js aplikacije',
+    'tier2.feature2': 'Visokoperformantni veb sajtovi',
+    'tier2.feature3': 'E-commerce platforme',
+    'tier2.feature4': 'API integracije i optimizacija',
+    'tier2.cta': 'Zatražite ponudu',
+    'tier2.price': 'Cena po projektu',
+
+    // Tier 3
+    'tier3.badge': 'NIVO 3',
+    'tier3.title': 'Sistemi',
+    'tier3.subtitle': 'Poslovna Automatizacija i Softver po Meri',
+    'tier3.feature1': 'Prilagođene poslovne aplikacije',
+    'tier3.feature2': 'AI-pokretani sistemi automatizacije',
+    'tier3.feature3': 'Inženjering radnih tokova',
+    'tier3.feature4': 'Optimizacija operacija',
+    'tier3.cta': 'Razgovarajmo',
+    'tier3.price': 'Premium retainer ili po projektu',
+
+    // Case Studies
+    'cases.title': 'Merljivi Rezultati',
+    'cases.subtitle': 'Pravi brojevi od pravih klijenata. Jer inženjeri mere sve.',
+    'cases.cta': 'Pogledaj Portfolio',
+
+    'case1.company': 'Advokatska Kancelarija - Jorge Robles',
+    'case1.result': '+20% Prihoda',
+    'case1.description': 'Kompletni sistem: SEO + automatizacija = 2x više zatvorenih slučajeva, 40% smanjenje troškova',
+
+    'case2.company': 'NatAxtin',
+    'case2.result': 'PageSpeed 75→90+',
+    'case2.description': 'Inženjering performansi za 2,5 dana. Pozicija u pretraživanju 45→top 20 cilj.',
+
+    'case3.company': 'Felipe Cuevas',
+    'case3.result': '15 sati/nedelja uštede',
+    'case3.description': 'Sistemi automatizacije: 60% poboljšanje kvaliteta potencijalnih klijenata kroz inteligentne radne tokove.',
+
+    // CTA Section
+    'cta.title': 'Spremni da Izgradite Svoj Digitalni Sistem?',
+    'cta.subtitle': 'Bilo da vam treba SEO, prilagođena aplikacija ili kompletna automatizacija—hajde da zajedno projektujemo vaše rešenje.',
+    'cta.button': 'Zakazuj Besplatnu Konsultaciju',
+    'cta.trust1': 'Besplatna konsultacija',
+    'cta.trust2': 'Bez obaveze',
+    'cta.trust3': '30-minutni strategijski poziv',
+
     // Footer
     'footer.tagline': 'Razvijamo digitalna rešenja od 2021.',
     'footer.services': 'Usluge',
@@ -3253,10 +3315,160 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
 
     // Services Page
     'services.title': 'Naše usluge',
-    'services.subtitle': 'Tri nivoa digitalne infrastrukture',
+    'services.subtitle': 'Dva osnovna rešenja za rast vašeg biznisa',
+
+    // SEO Service
+    'services.seo.title': 'SEO',
+    'services.seo.badge': 'Temelj',
+    'services.seo.what.title': 'Šta Radimo',
+    'services.seo.what.description': 'Kompletna SEO optimizacija za preduzeća koja žele da dominiraju u rezultatima pretrage',
+    'services.seo.feature1': 'Tehnički SEO',
+    'services.seo.feature2': 'Strategija Sadržaja',
+    'services.seo.feature3': 'Lokalni SEO',
+    'services.seo.feature4': 'Izgradnja Linkova',
+    'services.seo.who.title': 'Za Koga je Namenjeno',
+    'services.seo.who.target1': 'Preduzeća koja žele predvidiv organski saobraćaj',
+    'services.seo.who.target2': 'Kompanije umorne od plaćanja oglasa bez dugoročnog ROI-ja',
+    'services.seo.platforms.title': 'Platforme',
+    'services.seo.platforms.note': 'Ekspertiza u WordPress + Elementor, plus Shopify, Wix, Webnode i više',
+    'services.seo.timeline.title': 'Rokovi',
+    'services.seo.timeline.audit': 'Početni Audit',
+    'services.seo.timeline.audit_time': '1 nedelja',
+    'services.seo.timeline.implementation': 'Implementacija',
+    'services.seo.timeline.implementation_time': '2-4 nedelje',
+    'services.seo.timeline.results': 'Vidljivi Rezultati',
+    'services.seo.timeline.results_time': '3-6 meseci',
+    'services.seo.deliverables.title': 'Što Dobijate',
+    'services.seo.deliverable1': 'Kompletni tehnički audit',
+    'services.seo.deliverable2': 'Strategija ključnih reči',
+    'services.seo.deliverable3': 'On-page optimizacija',
+    'services.seo.deliverable4': 'Mesečni izvešaji o performansama',
+    'services.seo.pricing': 'Od 1.800 dolara',
+    'services.seo.pricing_note': 'po projektu',
+    'services.seo.cta': 'Dobijte Besplatan SEO Audit',
+
+    // Development Service
+    'services.dev.title': 'Razvoj Softvera',
+    'services.dev.badge': 'Sistemi',
+    'services.dev.what.title': 'Šta Gradimo',
+    'services.dev.what.description': 'Prilagođeni softver, mikro-SaaS i sistemi automatizacije koji zamenjuju manuelne procese',
+    'services.dev.what.migration': 'Migracija i normalizacija podataka iz više izvora u struktuirane baze podataka',
+    'services.dev.who.title': 'Za Koga je Namenjeno',
+    'services.dev.who.target1': 'Preduzeća koja se davlju u tabelama',
+    'services.dev.who.target2': 'Kompanije kojima trebaju prilagođeni alati',
+    'services.dev.who.target3': 'Startapi koji grade mikro-SaaS',
+    'services.dev.tech.title': 'Tehnički Stek',
+    'services.dev.timeline.title': 'Rokovi',
+    'services.dev.timeline.discovery': 'Otkrivanje',
+    'services.dev.timeline.discovery_time': '1-2 nedelje',
+    'services.dev.timeline.development': 'Razvoj',
+    'services.dev.timeline.development_time': '4-12 nedelja',
+    'services.dev.timeline.deployment': 'Pokretanje + Obuka',
+    'services.dev.timeline.deployment_time': '1 nedelja',
+    'services.dev.deliverables.title': 'Šta Dobijate',
+    'services.dev.deliverable1': 'Analiza procesa i dizajn radnog toka',
+    'services.dev.deliverable2': 'Kontrola pristupa na osnovu uloge',
+    'services.dev.deliverable3': 'Automatsko generisanje dokumenata',
+    'services.dev.deliverable4': 'Obuka korisnika',
+    'services.dev.deliverable5': 'Kontinuirana podrška',
+    'services.dev.cta': 'Pokrenite Projekat',
+
+    // Process
+    'services.process.title': 'Kako funkcionišu projekti',
+    'services.process.subtitle': 'Provereni proces koji donosi rezultate',
+    'services.process.step1': 'Poziv za otkrivanje',
+    'services.process.desc1': 'Razumevanje vaših potreba',
+    'services.process.step2': 'Predlog i obim',
+    'services.process.desc2': 'Jasni rokovi i cene',
+    'services.process.step3': 'Sprintovi razvoja',
+    'services.process.desc3': 'Redovne vesti i povratne informacije',
+    'services.process.step4': 'Pokretanje i obuka',
+    'services.process.desc4': 'Lansiranje sa punom podrškom',
+    'services.process.step5': 'Kontinuirana podrška',
+    'services.process.desc5': 'Održavanje i ažuriranja',
+
+    // Final CTA
     'services.final_cta.title': 'Spremni da počnete?',
     'services.final_cta.description': 'Razgovarajmo o vašem projektu i vidimo kako možemo da vam pomognemo da rastete.',
     'services.final_cta.button': 'Počni razgovor',
+
+    // SEO Services Page (/services/seo)
+    seoServices: {
+      meta: {
+        title: "SEO Usluge | Digital Frog",
+        description: "Neka vas pronađu klijenti koji već traže. Kompletna SEO optimizacija za WordPress, Shopify, Wix i Webnode sajtove. Od 1.800 dolara.",
+        keywords: "SEO usluge, optimizacija za pretraživače, WordPress SEO, tehnički SEO audit, strategija ključnih reči"
+      },
+      hero: {
+        badge: "SEO Usluge",
+        title: "Neka Vas Pronađu Klijenti Koji",
+        titleAccent: "Već Traže",
+        subtitle: "Prestanite da plaćate oglase koji nestaju kada se budžet potroši. SEO gradi dugoročan, predvidiv organski saobraćaj koji se povećava tokom vremena. Optimizujemo vaš sajt za pretraživače i ljude.",
+        cta: "Dobijte Besplatan SEO Audit",
+        ctaSecondary: "Pogledajte Studije Slučaja",
+        trustBadges: {
+          speed: "90+ PageSpeed",
+          delivery: "1 Nedelja Audit",
+          satisfaction: "100% Transparentno"
+        }
+      },
+      problem: {
+        title: "Zašto Vaš Veb Sajt Nije Pronađen",
+        subtitle: "Konkurenti vas nadmašuju jer razumeju šta pretraživači stvarno žele.",
+        items: [
+          {
+            icon: "Search",
+            title: "Nevidljiv za Pretraživače",
+            description: "Vaš sajt ima tehničke probleme koji sprečavaju pravilno indeksiranje. Google ne može da pronađe ili razume vaš sadržaj kako treba."
+          },
+          {
+            icon: "Target",
+            title: "Pogrešne Ključne Reči",
+            description: "Optimizujete za ključne reči koje niko ne traži, ili ključne reči koje ne pretvaraju posetioce u kupce."
+          },
+          {
+            icon: "Gauge",
+            title: "Sporo Učitavanje",
+            description: "Brzina stranice je glavni faktor rangiranja. Spori sajtovi se guraju dole u rezultatima pretrage i gube posetioce."
+          },
+          {
+            icon: "FileX",
+            title: "Loša Struktura Sadržaja",
+            description: "Sadržaj koji ne prati SEO najbolje prakse. Nedostaju meta opisi, loši naslovi, slabo interno povezivanje."
+          }
+        ]
+      },
+      solution: {
+        title: "Naš Sistematski SEO Pristup",
+        subtitle: "Ne samo da optimizujemo. Projektujemo kompletne SEO sisteme koji funkcionišu.",
+        items: [
+          {
+            icon: "Wrench",
+            title: "Tehnički Audit Inženjerskog Nivoa",
+            description: "Analiziramo vaš sajt kao inženjeri: mogućnost indeksiranja, brzina sajta, mobilne performanse, strukturni podaci, problemi indeksiranja."
+          },
+          {
+            icon: "TrendingUp",
+            title: "Strateško Istraživanje Ključnih Reči",
+            description: "Pronađite ključne reči visoke namere koje vaši klijenti stvarno traže. Fokus na termine koji pretvaraju posetioce u potencijalne klijente i prodaju."
+          },
+          {
+            icon: "Zap",
+            title: "Optimizacija Performansi",
+            description: "90+ PageSpeed garantovano. Brzi sajtovi se bolje rangiraju i više konvertuju. Optimizujemo svaki element za brzinu."
+          },
+          {
+            icon: "BarChart3",
+            title: "Merljivo Praćenje Rezultata",
+            description: "Mesečni izveštaji koji pokazuju poboljšanja rangiranja, rast saobraćaja i povećanje konverzija. SEO koji vodi poslovne rezultate."
+          }
+        ],
+        differentiator: {
+          title: "Zašto 'Marketing Meets Engineering' Funkcioniše za SEO",
+          description: "Većina SEO agencija se fokusira samo na rangiranje. Mi se fokusiramo na poslovne rezultate. Naša inženjerska pozadina znači da se tehnički problemi rešavaju kako treba, a naša marketing ekspertiza osigurava da saobraćaj stvarno konvertuje."
+        }
+      }
+    },
   },
 };
 

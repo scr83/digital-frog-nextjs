@@ -27,7 +27,6 @@ export function Navigation() {
   const navLinks = [
     { href: getLocalizedPath('/services'), label: t('nav.services') },
     { href: getLocalizedPath('/portfolio'), label: t('nav.portfolio') },
-    { href: getLocalizedPath('/blog'), label: t('nav.blog') },
     { href: getLocalizedPath('/about'), label: t('nav.about') },
     { href: getLocalizedPath('/contact'), label: t('nav.contact') },
   ];
