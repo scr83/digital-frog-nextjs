@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: 'Ve cómo Digital Frog ha ayudado a las empresas a crecer con optimización SEO, software personalizado y soluciones de automatización de marketing.',
   keywords: 'portafolio digital frog, casos de estudio SEO, proyectos desarrollo software, historias éxito clientes',
   alternates: {
-    canonical: '/es/portfolio',
-    languages: { en: '/portfolio', es: '/es/portfolio' },
+    canonical: 'https://digitalfrog.co/es/portfolio',
+    languages: { 
+      en: 'https://digitalfrog.co/portfolio', 
+      es: 'https://digitalfrog.co/es/portfolio', 
+      sr: 'https://digitalfrog.co/sr/portfolio' 
+    },
   },
 };
 

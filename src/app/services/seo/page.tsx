@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Professional SEO services with technical optimization, performance monitoring, and systematic content strategy. 90+ PageSpeed guarantee.',
   keywords: 'SEO services, technical SEO, PageSpeed optimization, SEO audit, search engine optimization',
   alternates: {
-    canonical: '/services/seo',
-    languages: { en: '/services/seo', es: '/es/servicios/seo' },
+    canonical: 'https://digitalfrog.co/services/seo',
+    languages: { 
+      en: 'https://digitalfrog.co/services/seo', 
+      es: 'https://digitalfrog.co/es/servicios/seo', 
+      sr: 'https://digitalfrog.co/sr/services/seo' 
+    },
   },
 };
 

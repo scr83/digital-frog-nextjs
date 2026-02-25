@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Professional marketing automation services with workflow engineering, AI-powered systems, and business process optimization.',
   keywords: 'marketing automation, workflow automation, business process optimization, automated marketing systems',
   alternates: {
-    canonical: '/services/automation',
-    languages: { en: '/services/automation', es: '/es/servicios/automatizacion' },
+    canonical: 'https://digitalfrog.co/services/automation',
+    languages: { 
+      en: 'https://digitalfrog.co/services/automation', 
+      es: 'https://digitalfrog.co/es/servicios/automatizacion', 
+      sr: 'https://digitalfrog.co/sr/services/automation' 
+    },
   },
 };
 

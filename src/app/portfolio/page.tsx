@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: 'See how Digital Frog has helped businesses grow with SEO optimization, custom software, and marketing automation solutions.',
   keywords: 'digital frog portfolio, SEO case studies, software development projects, client success stories',
   alternates: {
-    canonical: '/portfolio',
-    languages: { en: '/portfolio', es: '/es/portfolio' },
+    canonical: 'https://digitalfrog.co/portfolio',
+    languages: { 
+      en: 'https://digitalfrog.co/portfolio', 
+      es: 'https://digitalfrog.co/es/portfolio', 
+      sr: 'https://digitalfrog.co/sr/portfolio' 
+    },
   },
 };
 

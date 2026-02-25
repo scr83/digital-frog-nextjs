@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Servicios de automatización de procesos empresariales con optimización de operaciones, ingeniería de flujos de trabajo y soluciones de automatización sistemática.',
   keywords: 'automatización procesos, operaciones empresariales, optimización flujos trabajo, procesos automatizados, ingeniería operaciones',
   alternates: {
-    canonical: '/es/servicios/automatizacion-procesos',
-    languages: { en: '/services/process-automation', es: '/es/servicios/automatizacion-procesos' },
+    canonical: 'https://digitalfrog.co/es/servicios/automatizacion-procesos',
+    languages: { 
+      en: 'https://digitalfrog.co/services/process-automation', 
+      es: 'https://digitalfrog.co/es/servicios/automatizacion-procesos', 
+      sr: 'https://digitalfrog.co/sr/services/process-automation' 
+    },
   },
 };
 

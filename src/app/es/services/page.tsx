@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: 'Digital Frog ofrece servicios integrales de SEO y desarrollo de software personalizado. Desde auditorías técnicas hasta aplicaciones full-stack.',
   keywords: 'servicios SEO, desarrollo software personalizado, aplicaciones web, auditoría SEO técnica, optimización rendimiento',
   alternates: {
-    canonical: '/es/services',
-    languages: { en: '/services', es: '/es/services' },
+    canonical: 'https://digitalfrog.co/es/services',
+    languages: { 
+      en: 'https://digitalfrog.co/services', 
+      es: 'https://digitalfrog.co/es/services', 
+      sr: 'https://digitalfrog.co/sr/services' 
+    },
   },
 };
 

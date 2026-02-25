@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: 'Conoce Digital Frog, donde el marketing se encuentra con la ingeniería. Construimos sistemas digitales completos que crecen con tu negocio.',
   keywords: 'acerca de digital frog, ingeniería marketing, equipo desarrollo web, expertos SEO',
   alternates: {
-    canonical: '/es/about',
-    languages: { en: '/about', es: '/es/about' },
+    canonical: 'https://digitalfrog.co/es/about',
+    languages: { 
+      en: 'https://digitalfrog.co/about', 
+      es: 'https://digitalfrog.co/es/about', 
+      sr: 'https://digitalfrog.co/sr/about' 
+    },
   },
 };
 

@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Servicios profesionales de desarrollo web con Next.js, React y aplicaciones personalizadas. Sitios web de alto rendimiento y plataformas e-commerce.',
   keywords: 'desarrollo web, desarrollo Next.js, aplicaciones React, desarrollo e-commerce, sitios web personalizados',
   alternates: {
-    canonical: '/es/servicios/desarrollo-web',
-    languages: { en: '/services/web-development', es: '/es/servicios/desarrollo-web' },
+    canonical: 'https://digitalfrog.co/es/servicios/desarrollo-web',
+    languages: { 
+      en: 'https://digitalfrog.co/services/web-development', 
+      es: 'https://digitalfrog.co/es/servicios/desarrollo-web', 
+      sr: 'https://digitalfrog.co/sr/services/web-development' 
+    },
   },
 };
 

@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Servicios profesionales de SEO con optimización técnica, monitoreo de rendimiento y estrategia de contenido sistemática. Garantía de PageSpeed 90+.',
   keywords: 'servicios SEO, SEO técnico, optimización PageSpeed, auditoría SEO, optimización motores búsqueda',
   alternates: {
-    canonical: '/es/servicios/seo',
-    languages: { en: '/services/seo', es: '/es/servicios/seo' },
+    canonical: 'https://digitalfrog.co/es/servicios/seo',
+    languages: { 
+      en: 'https://digitalfrog.co/services/seo', 
+      es: 'https://digitalfrog.co/es/servicios/seo', 
+      sr: 'https://digitalfrog.co/sr/services/seo' 
+    },
   },
 };
 
