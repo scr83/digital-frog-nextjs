@@ -3467,8 +3467,380 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
           title: "Zašto 'Marketing Meets Engineering' Funkcioniše za SEO",
           description: "Većina SEO agencija se fokusira samo na rangiranje. Mi se fokusiramo na poslovne rezultate. Naša inženjerska pozadina znači da se tehnički problemi rešavaju kako treba, a naša marketing ekspertiza osigurava da saobraćaj stvarno konvertuje."
         }
+      },
+      whatWeBuild: {
+        title: "Kompletna SEO Optimizacija",
+        subtitle: "Sve što vašem sajtu treba da dominira u pretraživačima.",
+        items: [
+          {
+            icon: "Search",
+            title: "Tehnička SEO Osnova",
+            description: "Optimizacija brzine sajta, mobilna prilagodljivost, strukturirani podaci, XML mape sajta i poboljšanja za indeksiranje."
+          },
+          {
+            icon: "Target",
+            title: "Strategija Ključnih Reči i Sadržaj",
+            description: "Istraživanje, mapiranje i optimizacija ključnih reči visoke namere. Struktura sadržaja koju pretraživači obožavaju."
+          },
+          {
+            icon: "Link",
+            title: "On-Page Optimizacija",
+            description: "Meta opisi, title tagovi, naslovi, interno povezivanje i struktura URL-ova optimizovani za maksimalan uticaj."
+          },
+          {
+            icon: "FileText",
+            title: "Smernice za Sadržaj",
+            description: "Jasne smernice za kreiranje SEO-prijateljskog sadržaja koji se rangira i pretvara posetioce u kupce."
+          },
+          {
+            icon: "BarChart",
+            title: "Praćenje Performansi",
+            description: "Mesečno praćenje rangiranja, organskog saobraćaja, broja klikova i poboljšanja konverzija."
+          },
+          {
+            icon: "Smartphone",
+            title: "Mobile-First Optimizacija",
+            description: "Osiguravamo da vaš sajt savršeno funkcioniše na mobilnim uređajima gde se dešava većina pretrage."
+          }
+        ]
+      },
+      techStack: {
+        title: "Platforme Koje Optimizujemo",
+        subtitle: "Ekspertski SEO za sve glavne veb platforme.",
+        description: "Bilo da ste na WordPress-u, Shopify-ju ili prilagođenim sajtovima, imamo tehničku ekspertizu da optimizujemo vašu specifičnu platformu za maksimalne performanse u pretraživačima.",
+        technologies: ["WordPress + Elementor", "Shopify", "Wix", "Webnode", "Custom HTML/React", "Next.js", "Squarespace"]
+      },
+      process: {
+        title: "Naš SEO Proces",
+        subtitle: "Sistematska optimizacija koja donosi merljive rezultate.",
+        steps: [
+          {
+            number: "01",
+            title: "Tehnički Audit",
+            duration: "1 nedelja",
+            description: "Kompletna analiza tehničkog SEO zdravlja vašeg sajta. Identifikujemo sve probleme koji sprečavaju optimalnu performansu u pretraživačima."
+          },
+          {
+            number: "02",
+            title: "Istraživanje Ključnih Reči",
+            duration: "1 nedelja",
+            description: "Istraživanje ključnih reči visoke namere koje vaši klijenti traže. Mapiranje strategije sadržaja oko termina koji stvarno konvertuju."
+          },
+          {
+            number: "03",
+            title: "Implementacija",
+            duration: "2-4 nedelje",
+            description: "Rešavanje tehničkih problema, optimizacija on-page elemenata, poboljšanje brzine sajta i implementacija strukturiranih podataka."
+          },
+          {
+            number: "04",
+            title: "Optimizacija Sadržaja",
+            duration: "2-3 nedelje",
+            description: "Optimizacija postojećeg sadržaja i kreiranje novih stranica usmerenih na prioritetne ključne reči. Fokus na konverziju, ne samo na saobraćaj."
+          },
+          {
+            number: "05",
+            title: "Praćenje i Izveštavanje",
+            duration: "Kontinuirano",
+            description: "Mesečni izveštaji koji prate rangiranja, saobraćaj i poslovne rezultate. Kontinuirana optimizacija na osnovu podataka o performansama."
+          }
+        ]
+      },
+      caseStudy: {
+        title: "SEO Rezultati Koji Pokreću Rast Biznisa",
+        subtitle: "Stvarno rangiranje, stvaran saobraćaj, stvarno povećanje prihoda.",
+        featured: {
+          type: "Tehnička Optimizacija",
+          client: "Nataxtin",
+          challenge: "Sajt se sporo učitavao sa 75 PageSpeed skorom. Rangiranja su se spuštala zbog loših tehničkih performansi.",
+          solution: "Kompletna tehnička SEO reorganizacija: optimizacija slika, čišćenje koda, optimizacija servera i mobilna poboljšanja.",
+          results: [
+            { metric: "90+", label: "PageSpeed Skor", detail: "Od 75 do 90+ za samo 2.5 dana" },
+            { metric: "Top 20", label: "Pozicija u Pretraživanju", detail: "Pomerio se sa pozicije 45 u top 20 za ciljane ključne reči" },
+            { metric: "+40%", label: "Organski Saobraćaj", detail: "Značajno povećanje saobraćaja tokom prvog meseca" }
+          ],
+          quote: "Tehnička poboljšanja su bila odmah vidljiva u našim performansama u pretraživačima.",
+          quoteName: "Nataxtin Tim"
+        },
+        additionalMetrics: [
+          { value: "+150%", label: "Organski saobraćaj", client: "Tech Konsalting" },
+          { value: "45→20", label: "Prosečno rangiranje", client: "Uslužna Kompanija" },
+          { value: "+60%", label: "Kvalitet potencijalnih klijenata", client: "Profesionalne Usluge" }
+        ]
+      },
+      pricing: {
+        title: "SEO Investicija",
+        subtitle: "Transparentne cene za kompletnu SEO optimizaciju.",
+        description: "SEO usluge počinju od 1.800 USD i uključuju tehnički audit, strategiju ključnih reči, on-page optimizaciju i kontinuirano praćenje. Prilagođeni paketi dostupni za preduzeća.",
+        factors: {
+          title: "Šta Utiče na Vašu Investiciju",
+          items: [
+            "Veličina i složenost vašeg sajta",
+            "Broj ciljanih ključnih reči i stranica",
+            "Trenutni tehnički problemi za rešavanje",
+            "Konkurentski pejzaž u vašoj industriji"
+          ]
+        },
+        cta: "Dobijte Besplatan SEO Audit",
+        note: "Besplatan tehnički audit uključen. Bez obaveze."
+      },
+      faq: {
+        title: "SEO Pitanja Odgovorena",
+        items: [
+          {
+            question: "Koliko traje da se vide SEO rezultati?",
+            answer: "Tehnička poboljšanja mogu pokazati rezultate za 2-4 nedelje. Značajna poboljšanja rangiranja i saobraćaja obično traju 3-6 meseci. SEO je dugoročna strategija koja se povećava tokom vremena."
+          },
+          {
+            question: "Šta je uključeno u SEO audit?",
+            answer: "Kompletna tehnička analiza: brzina sajta, mobilne performanse, mogućnost indeksiranja, problemi indeksiranja, strukturirani podaci, interno povezivanje i konkurentska analiza. Dobićete detaljan izveštaj sa prioritetnim stavkama za akciju."
+          },
+          {
+            question: "Da li radite sa svim veb platformama?",
+            answer: "Da. Optimizujemo WordPress, Shopify, Wix, Webnode i prilagođene sajtove. Naša inženjerska pozadina znači da možemo da rešimo bilo koju platformu ili tehnički izazov."
+          },
+          {
+            question: "Kako merite SEO uspeh?",
+            answer: "Pratimo rangiranja, organski saobraćaj, broj klikova i što je najvažnije - poslovne rezultate poput potencijalnih klijenata i prodaje. Mesečni izveštaji pokazuju tačno kako SEO utiče na vaše poslovanje."
+          },
+          {
+            question: "Što čini vaš SEO drugačijim?",
+            answer: "Kombinujemo inženjersku preciznost sa marketing strategijom. Tehnički problemi se rešavaju kako treba, strategija ključnih reči se fokusira na konverziju, i sve se meri za poslovni uticaj - ne samo za metrije taštine."
+          }
+        ]
+      },
+      finalCta: {
+        title: "Spremni da Dominirate u Pretraživačima?",
+        subtitle: "Dobijte besplatan tehnički SEO audit. Analizirat ćemo vaš sajt i pokazati vam tačno što koči performanse vašeg sajta u pretraživačima.",
+        cta: "Dobijte Besplatan SEO Audit",
+        note: "Detaljan audit izveštaj uključen. Bez obaveze."
       }
     },
+
+    // Automation Services Page (/services/automation)
+    automationServices: {
+      meta: {
+        title: "Usluge Poslovne Automatizacije | Digital Frog",
+        description: "Automatizujte ponavljajuće zadatke i fokusirajte se na rast. Prilagođena automatizacija za fakturisanje, kvalifikaciju potencijalnih klijenata, onboarding i izveštavanje. Od 5.000 dolara.",
+        keywords: "poslovna automatizacija, automatizacija procesa, automatizacija radnog toka, automatizacija zadataka, efikasnost poslovanja"
+      },
+      hero: {
+        badge: "Poslovna Automatizacija",
+        title: "Automatizujte Ponavljajuće,",
+        titleAccent: "Fokusirajte se na Rast",
+        subtitle: "Vaš tim ne treba da gubi vreme na zadatke koje računar može da radi bolje. Gradimo prilagođenu automatizaciju koja rešava ponavljajući posao — fakturisanje, praćenja, unos podataka, izveštavanje — tako da se vaši ljudi mogu fokusirati na ono što stvarno pokreće biznis.",
+        cta: "Dobijte Procenu Automatizacije",
+        ctaSecondary: "Vidite Šta Automatizujemo",
+        trustBadges: {
+          speed: "2-6 Nedelja Izgradnje",
+          delivery: "300% ROI Prosek",
+          satisfaction: "15+ Sati Uštede"
+        }
+      },
+      problem: {
+        title: "Skriveni Troškovi Manuelnog Rada",
+        subtitle: "Vaš tim sagoreva vreme i energiju na zadatke koji treba da budu automatizovani.",
+        items: [
+          {
+            icon: "Clock",
+            title: "Trošenje Vremena",
+            description: "Sati provedeni na ponavljajućim zadacima: unos podataka, praćenja, generisanje izveštaja i administrativni posao koji ne raste vaš biznis."
+          },
+          {
+            icon: "AlertTriangle",
+            title: "Ljudske Greške",
+            description: "Manualni procesi su skloni greškama. Propuštena praćenja, greške u unosu podataka i neusklađeno izvršavanje štete vašoj reputaciji."
+          },
+          {
+            icon: "DollarSign",
+            title: "Skriveni Troškovi",
+            description: "Svaki sat koji vaš tim provede na manuelnom radu je sat koji nije proveden na prodaji, strategiji ili službi za korisnike. Troškovi propuštenih prilika su ogromni."
+          },
+          {
+            icon: "TrendingDown",
+            title: "Uska Grla Skaliranja",
+            description: "Manualni procesi se ne skaliraju. Kako rastete, trebate više ljudi da rade iste ponavljajuće zadatke umesto da strateški rastete."
+          }
+        ]
+      },
+      solution: {
+        title: "Naš Pametni Pristup Automatizaciji",
+        subtitle: "Ne samo da automatizujemo. Optimizujemo celokupan radni tok za maksimalnu efikasnost.",
+        items: [
+          {
+            icon: "Brain",
+            title: "Inteligentna Analiza Procesa",
+            description: "Mapiramo vaše radne tokove i identifikujemo najbolje prilike za automatizaciju. Fokus na visoko-impaktne, nisko-rizične automatizacije prvo."
+          },
+          {
+            icon: "Zap",
+            title: "Prilagođeni Sistemi Automatizacije",
+            description: "Izgrađeni specifično za vaše poslovne procese. Bez generičkih alata koji vas primoravaju da menjate način rada."
+          },
+          {
+            icon: "Shield",
+            title: "Izvršavanje Bez Grešaka",
+            description: "Ugrađeno rukovanje greškama, obaveštenja i rezervni planovi. Vaši automatizovani sistemi su pouzdaniji od manuelnih procesa."
+          },
+          {
+            icon: "TrendingUp",
+            title: "Skalabilna Infrastruktura",
+            description: "Sistemi koji rastu sa vašim biznisom. Dodajte više kupaca bez dodavanja administrativnog opterećenja."
+          }
+        ],
+        differentiator: {
+          title: "Zašto 'Marketing Meets Engineering' Važno za Automatizaciju",
+          description: "Većina automatizacije se fokusira na eliminisanje zadataka. Mi se fokusiramo na eliminisanje uskih grla za rast. Naša marketing ekspertiza osigurava da automatizujemo procese koji stvarno utiču na vaš profit, ne samo lake."
+        }
+      },
+      whatWeBuild: {
+        title: "Procesi Koje Automatizujemo",
+        subtitle: "Od generisanja potencijalnih klijenata do uspešnih klijenata - automatizujemo ono što je najvažnije.",
+        items: [
+          {
+            icon: "Users",
+            title: "Upravljanje Potencijalnim Klijentima",
+            description: "Ocenjivanje potencijalnih klijenata, kvalifikacija, sekvence praćenja i ažuriranja CRM-a. Nikad više ne gubite potencijalne klijente zbog lošeg praćenja."
+          },
+          {
+            icon: "FileText",
+            title: "Finansijski Procesi",
+            description: "Generisanje faktura, podsetnici za plaćanja, praćenje troškova i finansijsko izveštavanje. Naplatite brže i smanjite računovodstvene troškove."
+          },
+          {
+            icon: "UserCheck",
+            title: "Onboarding Klijenata",
+            description: "Sekvence dobrodošlice, prikupljanje dokumenata, podešavanje naloga i isporuka obuke. Konzistentno iskustvo za svakog novog klijenta."
+          },
+          {
+            icon: "BarChart3",
+            title: "Izveštavanje i Analitika",
+            description: "Automatsko generisanje izveštaja, kontrolne table performansi i obaveštenja o statusu. Uvek znajte kako vaš biznis funkcioniše."
+          },
+          {
+            icon: "Mail",
+            title: "Komunikacijski Tokovi Rada",
+            description: "Automatizovane email sekvence, SMS obaveštenja i ažuriranja statusa. Držite sve informisane bez manuelnog napora."
+          },
+          {
+            icon: "Database",
+            title: "Upravljanje Podacima",
+            description: "Unos podataka, sinhronizacija između sistema i čišćenje podataka. Osigurajte da su vaši podaci uvek precizni i ažurni."
+          }
+        ]
+      },
+      techStack: {
+        title: "Tehnologija Automatizacije",
+        subtitle: "Izgrađeno sa pouzdanom, skalabilnom tehnologijom koja se integriše sa vašim postojećim alatima.",
+        description: "Koristimo moderne automatizacije platforme kao što su Zapier, Make (Integromat) i prilagođena rešenja izgrađena sa Next.js i API-jima. Vaše automatizacije rade sa vašim postojećim alatima: CRM, email, računovodstvo i više.",
+        technologies: ["Zapier", "Make (Integromat)", "Next.js APIs", "Webhooks", "Google Workspace", "Microsoft 365", "CRM Integration"]
+      },
+      process: {
+        title: "Naš Proces Automatizacije",
+        subtitle: "Od analize do implementacije za 2-6 nedelja.",
+        steps: [
+          {
+            number: "01",
+            title: "Analiza Procesa",
+            duration: "1 nedelja",
+            description: "Mapiranje vaših trenutnih radnih tokova, identifikacija uskih grla i prioritizacija prilika za automatizaciju na osnovu uticaja i napora."
+          },
+          {
+            number: "02",
+            title: "Dizajn Automatizacije",
+            duration: "3-5 dana",
+            description: "Dizajniranje automatizovanih radnih tokova sa rukovanjem greškama, obaveštenjima i tačkama integracije sa vašim postojećim sistemima."
+          },
+          {
+            number: "03",
+            title: "Izgradnja i Testiranje",
+            duration: "1-3 nedelje",
+            description: "Izgradnja automatizacije, testiranje sa stvarnim podacima i prefinisavanje na osnovu rezultata. Uključite vaš tim u proces testiranja."
+          },
+          {
+            number: "04",
+            title: "Implementacija i Obuka",
+            duration: "1 nedelja",
+            description: "Implementacija u produkciju, obuka vašeg tima o novim radnim tokovima i osiguravanje da sve funkcioniše glatko."
+          },
+          {
+            number: "05",
+            title: "Praćenje i Optimizacija",
+            duration: "Kontinuirano",
+            description: "Praćenje performansi, rešavanje problema i identifikacija dodatnih prilika za automatizaciju kako vaš biznis raste."
+          }
+        ]
+      },
+      caseStudy: {
+        title: "Automatizacija Koja Transformiše Biznis",
+        subtitle: "Stvarni biznisi, stvarna ušteda vremena, stvaran rast.",
+        featured: {
+          type: "Automatizacija Upravljanja Potencijalnim Klijentima",
+          client: "Felipe Cuevas - Konsultant za Nekretnine",
+          challenge: "Provodio je 15+ sati nedeljno na kvalifikaciji potencijalnih klijenata, praćenjima i pripremi dokumenata, ostavljajući malo vremena za stvaran rad sa klijentima i rast biznisa.",
+          solution: "Automatizovani sistem ocenjivanja potencijalnih klijenata, email sekvence praćenja, generisanje dokumenata i CRM integracija za automatsko rešavanje svih ponavljajućih zadataka.",
+          results: [
+            { metric: "15 sati", label: "Ušteda Nedeljno", detail: "Vreme ranije provedeno na manuelnim zadacima sada dostupno za rad sa klijentima" },
+            { metric: "60%", label: "Kvalitet Potencijalnih Klijenata", detail: "Automatsko ocenjivanje identifikuje bolje potencijalne klijente brže" },
+            { metric: "2x", label: "Kapacitet Klijenata", detail: "Može da rukuje dvostruko više klijenata sa istim naporom" }
+          ],
+          quote: "Nekad sam mrzi ponedeljka ujutru gledajući sav manuelni posao koji me čeka. Sada sistem rešava ponavljajuće stvari i ja se stvarno mogu fokusirati na pomaganje klijentima.",
+          quoteName: "Felipe Cuevas"
+        },
+        additionalMetrics: [
+          { value: "300%", label: "Prosečan ROI", client: "Prva Godina" },
+          { value: "40%", label: "Smanjenje troškova", client: "Profesionalne Usluge" },
+          { value: "85%", label: "Smanjenje grešaka", client: "Finansijski Procesi" }
+        ]
+      },
+      pricing: {
+        title: "Investicija u Automatizaciju",
+        subtitle: "Cene fokusirane na ROI sa transparentnom vrednošću.",
+        description: "Projekti prilagođene automatizacije počinju od 5.000 USD. Većina klijenata vidi kompletnu povraćaj investicije za 2-4 meseca kroz uštede vremena, smanjenje grešaka i povećan kapacitet.",
+        factors: {
+          title: "Šta Utiče na Vašu Investiciju",
+          items: [
+            "Broj i složenost procesa za automatizaciju",
+            "Zahtevi integracije sa postojećim sistemima",
+            "Prilagođena logika i tokovi rada donošenja odluka",
+            "Vremenski okviri i nivo prioriteta"
+          ]
+        },
+        cta: "Dobijte Procenu Automatizacije",
+        note: "Besplatna analiza procesa uključena. Prosečan ROI: 300% u prvoj godini."
+      },
+      faq: {
+        title: "Pitanja o Automatizaciji Odgovorena",
+        items: [
+          {
+            question: "Koji procesi mogu da se automatizuju?",
+            answer: "Većina ponavljajućih procesa baziranih na pravilima može da se automatizuje: kvalifikacija potencijalnih klijenata, praćenja, fakturisanje, izveštavanje, unos podataka, email sekvence i više. Analiziramo vaše radne tokove i identifikujemo najbolje prilike."
+          },
+          {
+            question: "Koliko traje izgradnja automatizacije?",
+            answer: "Većina projekata automatizacije traje 2-6 nedelja. Jednostavne automatizacije (email sekvence, osnovna obaveštenja) mogu biti gotove za 2 nedelje. Složene integracije više sistema mogu da traju 6+ nedelja."
+          },
+          {
+            question: "Da li će automatizacija raditi sa našim postojećim alatima?",
+            answer: "Da. Integrišemo se sa većinom poslovnih alata: CRM-ovi (Salesforce, HubSpot), email platforme (Gmail, Outlook), računovodstveni softver (QuickBooks, Xero), alati za upravljanje projektima i više."
+          },
+          {
+            question: "Šta ako se nešto pokvari ili treba da se promeni?",
+            answer: "Gradimo robusne automatizacije sa rukovanjem greškama i praćenjem. Pružamo kontinuiranu podršku i možemo da modifikujemo ili proširimo vaše automatizacije kako se potrebe vašeg biznisa menjaju."
+          },
+          {
+            question: "Kako merimo ROI na automatizaciji?",
+            answer: "Pratimo uštede vremena, smanjenje grešaka, povećan kapacitet i brže procese. Većina klijenata vidi ROI za 2-4 meseca kroz smanjeni manuelni rad i poboljšanu efikasnost."
+          }
+        ]
+      },
+      finalCta: {
+        title: "Spremni da Povratite Vaše Vreme?",
+        subtitle: "Hajde da identifikujemo procese koji dreniraju energiju vašeg tima. Dobijte besplatnu 30-minutnu procenu automatizacije.",
+        cta: "Dobijte Besplatnu Procenu",
+        note: "Bez obaveze. Samo jasnoća o tome šta je moguće."
+      }
+    }
   },
 };
 
