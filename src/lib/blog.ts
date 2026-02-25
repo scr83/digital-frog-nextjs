@@ -157,11 +157,11 @@ export const blogPosts: BlogPost[] = [
 
 <p>Here's our answer: Custom software starts at <strong>$5,000 USD</strong> and scales with size and complexity. We'll break down exactly what you get at each tier, what drives price up, and how to budget smart without overspending.</p>
 
-<p>First mention of <strong><a href="/">Digital Frog</a></strong> — we believe transparency builds trust and attracts better clients.</p>
+<p>At <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>, we believe transparency builds trust and attracts better clients.</p>
 
 <div class="cta-box early-cta">
   <h3>Want to Skip the Research?</h3>
-  <p>Get your specific number with Digital Frog's free project diagnostic. We'll scope your project and give you a transparent quote within 48 hours.</p>
+  <p>Get your specific number with <a href="https://digitalfrog.co"><strong>Digital Frog's</strong></a> free project diagnostic. We'll scope your project and give you a transparent quote within 48 hours.</p>
   <a href="/contact" class="cta-button">Get a Free Diagnostic — No Commitment</a>
 </div>
 
@@ -257,7 +257,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="cta-box mid-cta">
   <h3>Tired of Vague Quotes?</h3>
-  <p>Get a transparent proposal from Digital Frog — we'll tell you exactly what it costs, how long it takes, and what you get.</p>
+  <p>Get a transparent proposal from <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a> — we'll tell you exactly what it costs, how long it takes, and what you get.</p>
   <a href="/contact" class="cta-button">Start Your Project Today — Free Diagnostic</a>
 </div>
 
@@ -344,7 +344,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="real-projects">Real Projects, Real Numbers</h2>
 
-<p>Here are examples from <strong>Digital Frog's</strong> actual client work:</p>
+<p>Here are examples from <a href="https://digitalfrog.co"><strong>Digital Frog's</strong></a> actual client work:</p>
 
 <ul>
   <li><strong>Nataxtin:</strong> PageSpeed optimization project — improved Core Web Vitals from 75 to 90+ in 2.5 days</li>
@@ -381,7 +381,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="cta-box final-cta">
   <h2>Ready to Know Exactly What Your Project Will Cost?</h2>
-  <p>Stop guessing and stop getting vague "it depends" answers. <strong>Digital Frog</strong> provides transparent pricing with a free diagnostic — no commitment, no surprises.</p>
+  <p>Stop guessing and stop getting vague "it depends" answers. <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a> provides transparent pricing with a free diagnostic — no commitment, no surprises.</p>
   
   <ul class="cta-benefits">
     <li>✓ Detailed scope and cost breakdown</li>
@@ -420,11 +420,11 @@ export const blogPosts: BlogPost[] = [
 
 <p>Aquí está nuestra respuesta: El software a medida comienza en <strong>$5,000 USD</strong> y escala con el tamaño y la complejidad. Desglosaremos exactamente qué obtienes en cada nivel, qué hace subir el precio, y cómo presupuestar inteligentemente sin gastar de más.</p>
 
-<p>Primera mención de <strong><a href="/">Digital Frog</a></strong> — creemos que la transparencia construye confianza y atrae mejores clientes.</p>
+<p>En <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>, creemos que la transparencia construye confianza y atrae mejores clientes.</p>
 
 <div class="cta-box early-cta">
   <h3>¿Quieres Saltarte la Investigación?</h3>
-  <p>Obtén tu número específico con el diagnóstico gratuito de proyecto de Digital Frog. Evaluaremos tu proyecto y te daremos una cotización transparente en 48 horas.</p>
+  <p>Obtén tu número específico con el diagnóstico gratuito de proyecto de <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>. Evaluaremos tu proyecto y te daremos una cotización transparente en 48 horas.</p>
   <a href="/es/contacto" class="cta-button">Obtén un Diagnóstico Gratuito — Sin Compromiso</a>
 </div>
 
@@ -520,7 +520,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="cta-box mid-cta">
   <h3>¿Cansado de Cotizaciones Vagas?</h3>
-  <p>Obtén una propuesta transparente de Digital Frog — te diremos exactamente lo que cuesta, cuánto toma, y qué obtienes.</p>
+  <p>Obtén una propuesta transparente de <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a> — te diremos exactamente lo que cuesta, cuánto toma, y qué obtienes.</p>
   <a href="/es/contacto" class="cta-button">Comienza tu Proyecto Hoy — Diagnóstico Gratuito</a>
 </div>
 
@@ -607,7 +607,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="proyectos-reales">Proyectos Reales, Números Reales</h2>
 
-<p>Aquí hay ejemplos del trabajo real de clientes de <strong>Digital Frog</strong>:</p>
+<p>Aquí hay ejemplos del trabajo real de clientes de <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>:</p>
 
 <ul>
   <li><strong>Nataxtin:</strong> Proyecto de optimización PageSpeed — mejoró Core Web Vitals de 75 a 90+ en 2.5 días</li>
@@ -644,7 +644,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="cta-box final-cta">
   <h2>¿Listo para Saber Exactamente lo que Costará tu Proyecto?</h2>
-  <p>Deja de adivinar y deja de obtener respuestas vagas de "depende". <strong>Digital Frog</strong> proporciona precios transparentes con un diagnóstico gratuito — sin compromiso, sin sorpresas.</p>
+  <p>Deja de adivinar y deja de obtener respuestas vagas de "depende". <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a> proporciona precios transparentes con un diagnóstico gratuito — sin compromiso, sin sorpresas.</p>
   
   <ul class="cta-benefits">
     <li>✓ Desglose detallado de alcance y costo</li>
@@ -1065,11 +1065,11 @@ export const blogPosts: BlogPost[] = [
 
 <p>Here's an honest, no-BS comparison with real numbers, real trade-offs, and a decision framework that works. Custom software starts at <strong>$5,000 USD</strong> — less than many businesses think, and often less than 18 months of SaaS subscriptions.</p>
 
-<p>First mention of <strong><a href="/">Digital Frog</a></strong> — we've helped businesses make this decision based on data, not hype.</p>
+<p>At <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>, we've helped businesses make this decision based on data, not hype.</p>
 
 <div class="cta-box early-cta">
   <h3>Already Leaning One Way?</h3>
-  <p>Get a free diagnostic from Digital Frog — we'll give you an honest recommendation, even if SaaS is the better choice for you.</p>
+  <p>Get a free diagnostic from <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a> — we'll give you an honest recommendation, even if SaaS is the better choice for you.</p>
   <a href="/contact" class="cta-button">Get a Free Diagnostic</a>
 </div>
 
@@ -2065,11 +2065,11 @@ export const blogPosts: BlogPost[] = [
 
 <p>Here are 7 unmistakable signs it's time to automate, plus what automation actually looks like (hint: not expensive RPA platforms) and how to get started without overwhelming your team. Process automation starts at <strong>$5,000 USD</strong> — it's more accessible than most think.</p>
 
-<p>First mention of <strong><a href="/">Digital Frog</a></strong> — we combine marketing expertise with software engineering to build automation that actually works for real businesses.</p>
+<p>At <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>, we combine marketing expertise with software engineering to build automation that actually works for real businesses.</p>
 
 <div class="cta-box early-cta">
   <h3>Already Know You Need Automation?</h3>
-  <p>Skip ahead — get a free diagnostic from Digital Frog. We'll identify your biggest automation opportunities in one call.</p>
+  <p>Skip ahead — get a free diagnostic from <a href="https://digitalfrog.co"><strong>Digital Frog</strong></a>. We'll identify your biggest automation opportunities in one call.</p>
   <a href="/contact" class="cta-button">Get Free Diagnostic — No Commitment</a>
 </div>
 
