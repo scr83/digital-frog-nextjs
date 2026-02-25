@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllPosts, getPostBySlugSr, getRelatedPosts, getCategoryDisplayName } from '@/lib/blog';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
-import { Clock, Calendar, ArrowLeft, ArrowRight, User } from 'lucide-react';
+import { BlogPostLayout } from '@/components/BlogPostLayout';
+import { getTranslations } from '@/lib/translations';
 import JsonLd from '@/components/JsonLd';
 
 interface BlogPostPageProps {
@@ -72,6 +69,7 @@ export default async function BlogPostPageSR({ params }: BlogPostPageProps) {
   }
 
   const relatedPosts = getRelatedPosts(post);
+  const { t } = getTranslations('sr');
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -102,143 +100,35 @@ export default async function BlogPostPageSR({ params }: BlogPostPageProps) {
   return (
     <>
       <JsonLd data={articleJsonLd} />
-      
-      <div className="min-h-screen bg-background">
-        <div className="section-container pt-24 pb-16">
-          {/* Back to Blog */}
-          <div className="mb-8">
-            <Link 
-              href="/sr/blog"
-              className="inline-flex items-center text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Nazad na blog
-            </Link>
-          </div>
-
-          {/* Article Header */}
-          <header className="mb-12">
-            <div className="flex flex-wrap items-center gap-4 mb-6">
-              <Badge variant="secondary">
-                {getCategoryDisplayName(post.category, 'sr')}
-              </Badge>
-              <div className="flex items-center text-sm text-muted-foreground">
-                <Clock className="w-4 h-4 mr-1" />
-                {post.readingTime} minuta čitanja
-              </div>
-            </div>
-            
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-              {post.titleSr}
-            </h1>
-            
-            <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
-              <div className="flex items-center">
-                <User className="w-4 h-4 mr-2" />
-                Od {post.author}
-              </div>
-              <div className="flex items-center">
-                <Calendar className="w-4 h-4 mr-2" />
-                Objavljeno {new Date(post.publishedAt).toLocaleDateString('sr-RS', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}
-              </div>
-              {post.updatedAt !== post.publishedAt && (
-                <div className="flex items-center">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  Ažurirano {new Date(post.updatedAt).toLocaleDateString('sr-RS', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}
-                </div>
-              )}
-            </div>
-            
-            {post.tagsSr.length > 0 && (
-              <div className="flex flex-wrap gap-2 mt-6">
-                {post.tagsSr.map((tag) => (
-                  <Badge key={tag} variant="outline" className="text-xs">
-                    {tag}
-                  </Badge>
-                ))}
-              </div>
-            )}
-          </header>
-
-          {/* Article Content */}
-          <article className="max-w-4xl mx-auto">
-            <div 
-              className="prose prose-lg max-w-none dark:prose-invert prose-headings:text-foreground prose-p:text-foreground prose-a:text-primary prose-strong:text-foreground prose-code:text-foreground prose-pre:bg-muted prose-pre:text-foreground"
-              dangerouslySetInnerHTML={{ __html: post.contentSr }}
-            />
-          </article>
-
-          {/* CTA Section */}
-          <div className="mt-16 text-center">
-            <div className="bg-card border border-border rounded-lg p-8 max-w-2xl mx-auto">
-              <h2 className="text-2xl font-semibold text-foreground mb-4">
-                Spremni da pokrenete projekat?
-              </h2>
-              <p className="text-muted-foreground mb-6">
-                Razgovarajmo o tome kako možemo da vam pomognemo da rastete sa razvojem softvera po meri i automatizacijom.
-              </p>
-              <Link href="/sr/contact">
-                <Button variant="gradient" size="lg">
-                  Počni
-                </Button>
-              </Link>
-            </div>
-          </div>
-
-          {/* Related Posts */}
-          {relatedPosts.length > 0 && (
-            <div className="mt-16">
-              <h2 className="text-2xl font-semibold text-foreground mb-8 text-center">
-                Povezani članci
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {relatedPosts.map((relatedPost) => (
-                  <Card key={relatedPost.slugSr} className="bg-card border-border hover:shadow-lg transition-shadow">
-                    <CardHeader>
-                      <div className="flex items-center justify-between mb-2">
-                        <Badge variant="secondary" className="text-xs">
-                          {getCategoryDisplayName(relatedPost.category, 'sr')}
-                        </Badge>
-                        <div className="flex items-center text-xs text-muted-foreground">
-                          <Clock className="w-3 h-3 mr-1" />
-                          {relatedPost.readingTime} min čitanja
-                        </div>
-                      </div>
-                      <CardTitle className="text-lg">
-                        <Link 
-                          href={`/sr/blog/${relatedPost.slugSr}`}
-                          className="text-foreground hover:text-primary transition-colors"
-                        >
-                          {relatedPost.titleSr}
-                        </Link>
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent className="pt-0">
-                      <p className="text-muted-foreground text-sm line-clamp-3 mb-4">
-                        {relatedPost.descriptionSr}
-                      </p>
-                      <Link href={`/sr/blog/${relatedPost.slugSr}`}>
-                        <Button variant="ghost" size="sm" className="text-primary hover:text-primary-foreground">
-                          Pročitaj više
-                          <ArrowRight className="w-3 h-3 ml-1" />
-                        </Button>
-                      </Link>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-      </div>
+      <BlogPostLayout
+        post={post}
+        relatedPosts={relatedPosts}
+        language="sr"
+        translations={{
+          backToBlog: t('blog.backToBlog'),
+          breadcrumbHome: t('blog.breadcrumbHome'),
+          breadcrumbBlog: t('blog.breadcrumbBlog'),
+          tableOfContents: t('blog.tableOfContents'),
+          shareArticle: t('blog.shareArticle'),
+          copyLink: t('blog.copyLink'),
+          copied: t('blog.copied'),
+          continueReading: t('blog.continueReading'),
+          readArticle: t('blog.readArticle'),
+          minRead: t('blog.minRead'),
+          publishedOn: t('blog.publishedOn'),
+          writtenBy: t('blog.writtenBy'),
+          authorBio: t('blog.authorBio'),
+          viewAllArticles: t('blog.viewAllArticles')
+        }}
+        getCategoryName={(category) => getCategoryDisplayName(category, 'sr')}
+        getTitle={(post) => post.titleSr}
+        getDescription={(post) => post.descriptionSr}
+        getSlug={(post) => post.slugSr}
+        getContent={(post) => post.contentSr}
+        getTags={(post) => post.tagsSr}
+        basePath="/sr/blog"
+        homeUrl="/sr"
+      />
     </>
   );
 }

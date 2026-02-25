@@ -129,19 +129,6 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'footer.blog': 'Blog',
     'footer.copyright': '© 2025 Digital Frog. All rights reserved. Built with engineering precision.',
 
-    // Blog
-    'blog.title': 'Blog',
-    'blog.subtitle': 'Expert insights on software development, automation, and digital transformation',
-    'blog.readMore': 'Read more',
-    'blog.backToBlog': 'Back to blog',
-    'blog.relatedPosts': 'Related posts',
-    'blog.minutesRead': 'minutes read',
-    'blog.comingSoon': 'Coming soon',
-    'blog.comingSoonDesc': 'We\'re preparing expert insights on software development, automation, and digital transformation. Check back soon!',
-    'blog.author': 'By',
-    'blog.publishedOn': 'Published on',
-    'blog.updatedOn': 'Updated on',
-    'blog.category': 'Category',
     'blog.tags': 'Tags',
     'blog.sharePost': 'Share this post',
     'blog.readyToStart': 'Ready to start your project?',
@@ -283,6 +270,22 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'services.final_cta.title': 'Ready to get started?',
     'services.final_cta.description': 'Let\'s discuss your project and see how we can help you grow.',
     'services.final_cta.button': 'Start a conversation',
+
+    // Blog UI
+    'blog.backToBlog': '← Back to Blog',
+    'blog.breadcrumbHome': 'Home',
+    'blog.breadcrumbBlog': 'Blog',
+    'blog.tableOfContents': 'Table of Contents',
+    'blog.shareArticle': 'Share',
+    'blog.copyLink': 'Copy Link',
+    'blog.copied': 'Copied!',
+    'blog.continueReading': 'Continue Reading',
+    'blog.readArticle': 'Read Article',
+    'blog.minRead': 'min read',
+    'blog.publishedOn': 'Published on',
+    'blog.writtenBy': 'By',
+    'blog.authorBio': 'Founder of Digital Frog — Where Marketing Meets Engineering. Expert insights on custom software development, process automation, and digital transformation.',
+    'blog.viewAllArticles': 'View all articles →',
 
     // SEO Services Page (/services/seo)
     seoServices: {
@@ -1682,24 +1685,6 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'footer.blog': 'Blog',
     'footer.copyright': '© 2025 Digital Frog. Hecho con ingeniería en Chile.',
 
-    // Blog
-    'blog.title': 'Blog',
-    'blog.subtitle': 'Contenido experto sobre desarrollo de software, automatización y transformación digital',
-    'blog.readMore': 'Leer más',
-    'blog.backToBlog': 'Volver al blog',
-    'blog.relatedPosts': 'Artículos relacionados',
-    'blog.minutesRead': 'minutos de lectura',
-    'blog.comingSoon': 'Próximamente',
-    'blog.comingSoonDesc': 'Estamos preparando contenido experto sobre desarrollo de software, automatización y transformación digital. ¡Vuelve pronto!',
-    'blog.author': 'Por',
-    'blog.publishedOn': 'Publicado el',
-    'blog.updatedOn': 'Actualizado el',
-    'blog.category': 'Categoría',
-    'blog.tags': 'Etiquetas',
-    'blog.sharePost': 'Compartir artículo',
-    'blog.readyToStart': '¿Listo para comenzar tu proyecto?',
-    'blog.readyToStartDesc': 'Conversemos sobre cómo podemos ayudarte a crecer con desarrollo de software personalizado y automatización.',
-    'blog.getStarted': 'Comenzar',
     
     // Contact Page
     'contact.title': 'Hagamos crecer tu negocio',
@@ -1836,6 +1821,22 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'services.final_cta.title': '¿Listo para empezar?',
     'services.final_cta.description': 'Hablemos de tu proyecto y veamos cómo podemos ayudarte a crecer.',
     'services.final_cta.button': 'Empezar conversación',
+
+    // Blog UI
+    'blog.backToBlog': '← Volver al blog',
+    'blog.breadcrumbHome': 'Inicio',
+    'blog.breadcrumbBlog': 'Blog',
+    'blog.tableOfContents': 'Tabla de Contenidos',
+    'blog.shareArticle': 'Compartir',
+    'blog.copyLink': 'Copiar enlace',
+    'blog.copied': '¡Copiado!',
+    'blog.continueReading': 'Sigue leyendo',
+    'blog.readArticle': 'Leer artículo',
+    'blog.minRead': 'min de lectura',
+    'blog.publishedOn': 'Publicado el',
+    'blog.writtenBy': 'Por',
+    'blog.authorBio': 'Fundador de Digital Frog — Donde el Marketing se Encuentra con la Ingeniería. Contenido experto sobre desarrollo de software a medida, automatización de procesos y transformación digital.',
+    'blog.viewAllArticles': 'Ver todos los artículos →',
 
     // Servicios SEO Page (/es/servicios/seo)
     serviciosSEO: {
@@ -3175,24 +3176,6 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'footer.blog': 'Blog',
     'footer.copyright': '© 2025 Digital Frog. Sva prava zadržana. Izgrađeno sa inženjerskom preciznošću.',
 
-    // Blog
-    'blog.title': 'Blog',
-    'blog.subtitle': 'Stručni uvidi o razvoju softvera, automatizaciji i digitalnoj transformaciji',
-    'blog.readMore': 'Pročitaj više',
-    'blog.backToBlog': 'Nazad na blog',
-    'blog.relatedPosts': 'Povezani članci',
-    'blog.minutesRead': 'minuta čitanja',
-    'blog.comingSoon': 'Uskoro',
-    'blog.comingSoonDesc': 'Pripremamo stručne uvide o razvoju softvera, automatizaciji i digitalnoj transformaciji. Vratite se uskoro!',
-    'blog.author': 'Od',
-    'blog.publishedOn': 'Objavljeno',
-    'blog.updatedOn': 'Ažurirano',
-    'blog.category': 'Kategorija',
-    'blog.tags': 'Tagovi',
-    'blog.sharePost': 'Podeli članak',
-    'blog.readyToStart': 'Spremni da pokrenete projekat?',
-    'blog.readyToStartDesc': 'Razgovarajmo o tome kako možemo da vam pomognemo da rastete sa razvojem softvera po meri i automatizacijom.',
-    'blog.getStarted': 'Počni',
 
     // Contact Page
     'contact.title': 'Hajde da Izgradimo Nešto Odlično',
@@ -3257,6 +3240,22 @@ const translations: Record<Language, Record<string, TranslationValue>> = {
     'services.final_cta.title': 'Spremni da počnete?',
     'services.final_cta.description': 'Razgovarajmo o vašem projektu i vidimo kako možemo da vam pomognemo da rastete.',
     'services.final_cta.button': 'Počni razgovor',
+
+    // Blog UI
+    'blog.backToBlog': '← Nazad na blog',
+    'blog.breadcrumbHome': 'Početna',
+    'blog.breadcrumbBlog': 'Blog',
+    'blog.tableOfContents': 'Sadržaj',
+    'blog.shareArticle': 'Podeli',
+    'blog.copyLink': 'Kopiraj link',
+    'blog.copied': 'Kopirano!',
+    'blog.continueReading': 'Nastavi čitanje',
+    'blog.readArticle': 'Pročitaj članak',
+    'blog.minRead': 'min čitanja',
+    'blog.publishedOn': 'Objavljeno',
+    'blog.writtenBy': 'Autor',
+    'blog.authorBio': 'Osnivač Digital Frog — Gde se marketing susreće sa inženjeringom. Stručni uvidi o razvoju softvera po meri, automatizaciji procesa i digitalnoj transformaciji.',
+    'blog.viewAllArticles': 'Pogledaj sve članke →',
   },
 };
 
