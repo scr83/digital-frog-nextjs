@@ -27,17 +27,17 @@ export function Footer() {
             <h4 className="font-semibold text-foreground">{t('footer.services')}</h4>
             <ul className="space-y-2">
               <li>
-                <Link href={language === 'es' ? '/es/servicios/seo' : '/services/seo'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link href={language === 'es' ? '/es/servicios/seo' : language === 'sr' ? '/sr/services/seo' : '/services/seo'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   {t('footer.seo')}
                 </Link>
               </li>
               <li>
-                <Link href={language === 'es' ? '/es/servicios/desarrollo-web' : '/services/web-development'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link href={language === 'es' ? '/es/servicios/desarrollo-web' : language === 'sr' ? '/sr/services/web-development' : '/services/web-development'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   {t('footer.webdev')}
                 </Link>
               </li>
               <li>
-                <Link href={language === 'es' ? '/es/servicios/automatizacion' : '/services/automation'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link href={language === 'es' ? '/es/servicios/automatizacion' : language === 'sr' ? '/sr/services/automation' : '/services/automation'} className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   {t('footer.automation')}
                 </Link>
               </li>

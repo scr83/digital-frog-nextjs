@@ -3553,94 +3553,64 @@ const ROUTE_MAPPING: Record<string, { en: string; es: string; sr: string }> = {
   '/services/custom-software': {
     en: '/services/custom-software',
     es: '/servicios/software-a-medida',
-    sr: '/usluge/softver-po-meri'
+    sr: '/services/custom-software'
   },
   '/servicios/software-a-medida': {
     en: '/services/custom-software',
     es: '/servicios/software-a-medida',
-    sr: '/usluge/softver-po-meri'
-  },
-  '/usluge/softver-po-meri': {
-    en: '/services/custom-software',
-    es: '/servicios/software-a-medida',
-    sr: '/usluge/softver-po-meri'
+    sr: '/services/custom-software'
   },
   '/services/process-automation': {
     en: '/services/process-automation',
     es: '/servicios/automatizacion-procesos',
-    sr: '/usluge/automatizacija-procesa'
+    sr: '/services/process-automation'
   },
   '/servicios/automatizacion-procesos': {
     en: '/services/process-automation',
     es: '/servicios/automatizacion-procesos',
-    sr: '/usluge/automatizacija-procesa'
-  },
-  '/usluge/automatizacija-procesa': {
-    en: '/services/process-automation',
-    es: '/servicios/automatizacion-procesos',
-    sr: '/usluge/automatizacija-procesa'
+    sr: '/services/process-automation'
   },
   // New service pages
   '/services/seo': {
     en: '/services/seo',
     es: '/servicios/seo',
-    sr: '/usluge/seo'
+    sr: '/services/seo'
   },
   '/servicios/seo': {
     en: '/services/seo',
     es: '/servicios/seo',
-    sr: '/usluge/seo'
-  },
-  '/usluge/seo': {
-    en: '/services/seo',
-    es: '/servicios/seo',
-    sr: '/usluge/seo'
+    sr: '/services/seo'
   },
   '/services/web-development': {
     en: '/services/web-development',
     es: '/servicios/desarrollo-web',
-    sr: '/usluge/veb-razvoj'
+    sr: '/services/web-development'
   },
   '/servicios/desarrollo-web': {
     en: '/services/web-development',
     es: '/servicios/desarrollo-web',
-    sr: '/usluge/veb-razvoj'
-  },
-  '/usluge/veb-razvoj': {
-    en: '/services/web-development',
-    es: '/servicios/desarrollo-web',
-    sr: '/usluge/veb-razvoj'
+    sr: '/services/web-development'
   },
   '/services/automation': {
     en: '/services/automation',
     es: '/servicios/automatizacion',
-    sr: '/usluge/automatizacija'
+    sr: '/services/automation'
   },
   '/servicios/automatizacion': {
     en: '/services/automation',
     es: '/servicios/automatizacion',
-    sr: '/usluge/automatizacija'
-  },
-  '/usluge/automatizacija': {
-    en: '/services/automation',
-    es: '/servicios/automatizacion',
-    sr: '/usluge/automatizacija'
+    sr: '/services/automation'
   },
   // Professional services
   '/solutions/professional-services': {
     en: '/solutions/professional-services',
     es: '/soluciones/servicios-profesionales',
-    sr: '/resenja/profesionalne-usluge'
+    sr: '/solutions/professional-services'
   },
   '/soluciones/servicios-profesionales': {
     en: '/solutions/professional-services',
     es: '/soluciones/servicios-profesionales',
-    sr: '/resenja/profesionalne-usluge'
-  },
-  '/resenja/profesionalne-usluge': {
-    en: '/solutions/professional-services',
-    es: '/soluciones/servicios-profesionales',
-    sr: '/resenja/profesionalne-usluge'
+    sr: '/solutions/professional-services'
   }
 };
 
