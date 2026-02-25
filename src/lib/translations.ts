@@ -3992,6 +3992,53 @@ const ROUTE_MAPPING: Record<string, { en: string; es: string; sr: string }> = {
 export function getLanguageSwitchPath(currentPath: string, targetLang: Language): string {
   const cleanPath = getCleanPath(currentPath);
   
+  // Special handling for blog posts - check if this is a blog post route
+  const blogPostMatch = cleanPath.match(/^\/blog\/(.+)$/);
+  if (blogPostMatch) {
+    const currentSlug = blogPostMatch[1];
+    
+    // Import blog posts to find the current post and get language-specific slugs
+    try {
+      const { getAllPosts } = require('@/lib/blog');
+      const posts = getAllPosts();
+      const currentPost = posts.find((post: any) => 
+        post.slug === currentSlug || 
+        post.slugEs === currentSlug || 
+        post.slugSr === currentSlug
+      );
+      
+      if (currentPost) {
+        // Get the target slug for the target language
+        let targetSlug: string;
+        switch (targetLang) {
+          case 'en':
+            targetSlug = currentPost.slug;
+            return `/blog/${targetSlug}`;
+          case 'es':
+            targetSlug = currentPost.slugEs;
+            if (targetSlug) {
+              return `/es/blog/${targetSlug}`;
+            }
+            // Fallback to blog listing if no Spanish version exists
+            return '/es/blog';
+          case 'sr':
+            targetSlug = currentPost.slugSr;
+            if (targetSlug) {
+              return `/sr/blog/${targetSlug}`;
+            }
+            // Fallback to blog listing if no Serbian version exists
+            return '/sr/blog';
+        }
+      }
+    } catch (error) {
+      // Fallback: if we can't load blog posts, go to blog listing
+      console.warn('Failed to load blog posts for language switching:', error);
+      if (targetLang === 'es') return '/es/blog';
+      if (targetLang === 'sr') return '/sr/blog';
+      return '/blog';
+    }
+  }
+  
   // Check if this is a special route that needs mapping
   const routeMapping = ROUTE_MAPPING[cleanPath];
   if (routeMapping) {
