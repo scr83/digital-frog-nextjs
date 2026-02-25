@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import TableOfContents from './TableOfContents';
 import ShareButtons from './ShareButtons';
-import AuthorBio from './AuthorBio';
+// AuthorBio removed per BUG 6 fix
 import RelatedPosts from './RelatedPosts';
 import { BlogPost } from '@/lib/blog';
 
@@ -88,26 +88,13 @@ export default function BlogPostLayout({
           </Link>
         </div>
 
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
-          {/* Main Content */}
-          <div className="lg:col-span-3">
-            {/* Article Header */}
-            <header className="mb-12">
-              {children}
-            </header>
-
-            {/* Article Content with professional styling */}
-            <article className="max-w-none blog-content">
-              {children}
-            </article>
-          </div>
-
-          {/* Sidebar */}
-          <aside className="lg:col-span-1">
+        {/* Main Content Grid - TOC LEFT, Content RIGHT */}
+        <div className="flex gap-8 max-w-6xl mx-auto">
+          {/* LEFT: TOC sidebar */}
+          <aside className="hidden lg:block w-72 shrink-0">
             <div className="sticky top-24 space-y-8">
               {/* Table of Contents */}
-              <TableOfContents post={post} />
+              <TableOfContents post={post} language={language} />
               
               {/* Share Buttons */}
               <div>
@@ -117,11 +104,17 @@ export default function BlogPostLayout({
                 </h3>
                 <ShareButtons post={post} language={language} />
               </div>
-
-              {/* Author Bio */}
-              <AuthorBio post={post} language={language} />
             </div>
           </aside>
+          
+          {/* RIGHT: Content */}
+          <article className="flex-1 min-w-0 max-w-3xl">
+            {/* Article Header */}
+            <header className="mb-12">
+              {children}
+            </header>
+            {/* Article content is rendered by ClientBlogPost component */}
+          </article>
         </div>
 
         {/* CTA Section */}

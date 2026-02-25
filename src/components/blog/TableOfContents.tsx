@@ -6,28 +6,31 @@ import { extractTOCFromContent, removeDuplicateTOC, addHeadingIds } from '@/lib/
 
 interface TableOfContentsProps {
   post: BlogPost;
+  language: 'en' | 'es' | 'sr';
 }
 
-export default function TableOfContents({ post }: TableOfContentsProps) {
+export default function TableOfContents({ post, language }: TableOfContentsProps) {
   const [tocItems, setTocItems] = useState<Array<{ id: string; title: string; level: number }>>([]);
   const [activeId, setActiveId] = useState<string>('');
 
   useEffect(() => {
-    // Get the content based on current language
-    let content = post.content;
-    if (typeof window !== 'undefined') {
-      const path = window.location.pathname;
-      if (path.startsWith('/es/')) {
+    // Get the content based on language prop
+    let content: string;
+    switch (language) {
+      case 'es':
         content = post.contentEs || post.content;
-      } else if (path.startsWith('/sr/')) {
+        break;
+      case 'sr':
         content = post.contentSr || post.content;
-      }
+        break;
+      default:
+        content = post.content;
+        break;
     }
 
-    // Clean and process content
+    // Clean and process content to extract TOC
     const cleanContent = removeDuplicateTOC(content);
-    const contentWithIds = addHeadingIds(cleanContent);
-    const toc = extractTOCFromContent(contentWithIds);
+    const toc = extractTOCFromContent(cleanContent);
     
     setTocItems(toc);
 
@@ -65,9 +68,15 @@ export default function TableOfContents({ post }: TableOfContentsProps) {
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      const yOffset = -100;
-      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-      window.scrollTo({ top: y, behavior: 'smooth' });
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  const getTocTitle = () => {
+    switch (language) {
+      case 'es': return 'Tabla de Contenidos';
+      case 'sr': return 'Sadržaj';
+      default: return 'Table of Contents';
     }
   };
 
@@ -78,7 +87,7 @@ export default function TableOfContents({ post }: TableOfContentsProps) {
   return (
     <div className="toc-container">
       <h3 className="toc-title">
-        Table of Contents
+        {getTocTitle()}
       </h3>
       <nav className="toc-list">
         {tocItems.map((item) => (

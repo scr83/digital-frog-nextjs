@@ -239,6 +239,11 @@ body {
   color: hsl(var(--foreground));
 }
 
+/* Add scroll margin for smooth TOC navigation */
+.blog-content h2 {
+  scroll-margin-top: 100px;
+}
+
 .blog-content h1 {
   font-size: 1.875rem;
   font-weight: 700;
@@ -395,35 +400,60 @@ body {
 }
 
 .blog-content blockquote {
-  position: relative;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 0.5rem;
-  border-left: 4px solid hsl(var(--lime));
-  background: linear-gradient(to right, hsl(var(--lime) / 0.1), hsl(var(--cyan) / 0.05));
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  background: #111827;
+  border: 1px solid #1F2937;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  margin: 3rem 0;
+  text-align: center;
 }
 
-.blog-content blockquote::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, hsl(var(--lime)) 0%, hsl(var(--cyan)) 100%);
-  border-radius: 4px 4px 0 0;
+/* Heading text inside CTA */
+.blog-content blockquote strong {
+  color: #FFFFFF;
+  font-size: 1.1rem;
 }
 
+/* Regular text inside CTA */
 .blog-content blockquote p {
-  color: hsl(var(--foreground));
-  font-weight: 500;
+  color: #E2E8F0;
   margin-bottom: 1rem;
-  font-size: 1.125rem;
 }
 
-.blog-content blockquote p:last-child {
+/* The button link inside CTA */
+.blog-content blockquote a {
+  display: inline-block;
+  background: #06B6D4;
+  color: #030712;
+  padding: 0.875rem 2.5rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  margin: 0.5rem 0;
+}
+
+.blog-content blockquote a:hover {
+  background: #22D3EE;
+}
+
+/* Subtitle text (last paragraph if it's not a link) */
+.blog-content blockquote p:last-child:not(:has(a)) {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
   margin-bottom: 0;
+}
+
+/* End-of-article CTA styling */
+.blog-end-cta {
+  background: #111827;
+  border: 1px solid #1F2937;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 3rem;
+  text-align: center;
 }
 
 .blog-content code {
